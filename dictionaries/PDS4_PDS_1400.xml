@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!-- PDS4 XML product label for PDS4 V1.4.0.0  Tue Mar 31 10:42:45 PDT 2015 -->
+  <!-- Generated from the PDS4 Information Model V1.4.0.0 - System Build 5b -->
+  <!-- *** This PDS4 XML product label is an operational deliverable. *** -->
+<?xml-model href="http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1400.sch"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_XML_Schema xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+    http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1400.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:system_bundle:xml_schema:pds-xml_schema</logical_identifier>
+        <version_id>1.3</version_id>
+        <title>PDS4 XML Schema V1400 </title>
+        <information_model_version>1.4.0.0</information_model_version>
+        <product_class>Product_XML_Schema</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2015-03-31</modification_date>
+                <version_id>1.6</version_id>
+                <description>This is the system generated PDS4 product label for PDS4 XML Schema and Schematron files. The m.n value for version_id is created using the first digit of the IM version and the simple sequence number of this release.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <File_Area_XML_Schema>
+        <File>
+            <file_name>PDS4_PDS_1400.xsd</file_name>
+            <creation_date_time>2015-03-31T10:42:45</creation_date_time>
+            <file_size unit="byte">341696</file_size>
+            <records>7397</records>
+        </File>
+        <XML_Schema>
+            <name>PDS4_PDS_1400.xsd</name>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>XML Schema Version 1.1</parsing_standard_id>
+            <description>This is a PDS4 XML Schema file for the declared namespace.</description>
+        </XML_Schema>
+    </File_Area_XML_Schema>
+    <File_Area_XML_Schema>
+        <File>
+            <file_name>PDS4_PDS_1400.sch</file_name>
+            <creation_date_time>2015-03-31T10:42:45</creation_date_time>
+            <file_size unit="byte">120848</file_size>
+            <records>1531</records>
+        </File>
+        <XML_Schema>
+            <name>PDS4_PDS_1400.sch</name>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>Schematron ISO/IEC 19757-3:2006</parsing_standard_id>
+            <description>This is the PDS4 Schematron file for the declared namespace. Schematron provides rule-based validation for XML Schema.</description>
+        </XML_Schema>
+    </File_Area_XML_Schema>
+</Product_XML_Schema>
