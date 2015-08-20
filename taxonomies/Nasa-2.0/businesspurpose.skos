@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+    xmlns:skos='http://www.w3.org/2004/02/skos/core#'
+    xmlns:nt2='http://nasataxonomy.jpl.nasa.gov/cvFields#'
+    xmlns:dcterms='http://purl.org/dc/terms/'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'>
+ <skos:Concept rdf:about='bizpurp:13'>
+  <skos:prefLabel>Property and Supply</skos:prefLabel>
+  <skos:altLabel>4000-4999 Property and Supply</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:85'/>
+  <skos:narrower rdf:resource='bizpurp:93'/>
+  <skos:narrower rdf:resource='bizpurp:81'/>
+  <skos:narrower rdf:resource='bizpurp:83'/>
+  <skos:narrower rdf:resource='bizpurp:91'/>
+  <skos:narrower rdf:resource='bizpurp:89'/>
+  <skos:narrower rdf:resource='bizpurp:87'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>13</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:117'>
+  <skos:prefLabel>Commercial Freight Services</skos:prefLabel>
+  <skos:altLabel>6100 Commercial Freight Services</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>117</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:153'>
+  <skos:prefLabel>General (Program Management)</skos:prefLabel>
+  <skos:altLabel>8000 General (Program Management)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>153</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:181'>
+  <skos:prefLabel>Budget Formulation and Execution</skos:prefLabel>
+  <skos:altLabel>9400 Budget Formulation and Execution</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>181</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:155'>
+  <skos:prefLabel>Advanced Studies</skos:prefLabel>
+  <skos:altLabel>8100 Advanced Studies</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>155</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:19'>
+  <skos:prefLabel>Program Formulation</skos:prefLabel>
+  <skos:altLabel>7000-7999 Program Formulation</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:151'/>
+  <skos:narrower rdf:resource='bizpurp:143'/>
+  <skos:narrower rdf:resource='bizpurp:139'/>
+  <skos:narrower rdf:resource='bizpurp:141'/>
+  <skos:narrower rdf:resource='bizpurp:133'/>
+  <skos:narrower rdf:resource='bizpurp:147'/>
+  <skos:narrower rdf:resource='bizpurp:137'/>
+  <skos:narrower rdf:resource='bizpurp:145'/>
+  <skos:narrower rdf:resource='bizpurp:135'/>
+  <skos:narrower rdf:resource='bizpurp:149'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>19</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:79'>
+  <skos:prefLabel>Miscellaneous (Human Resources)</skos:prefLabel>
+  <skos:altLabel>3900 Miscellaneous (Human Resources)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>79</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:17'>
+  <skos:prefLabel>Transportation</skos:prefLabel>
+  <skos:altLabel>6000-6999 Transportation</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:117'/>
+  <skos:narrower rdf:resource='bizpurp:115'/>
+  <skos:narrower rdf:resource='bizpurp:129'/>
+  <skos:narrower rdf:resource='bizpurp:131'/>
+  <skos:narrower rdf:resource='bizpurp:123'/>
+  <skos:narrower rdf:resource='bizpurp:125'/>
+  <skos:narrower rdf:resource='bizpurp:119'/>
+  <skos:narrower rdf:resource='bizpurp:127'/>
+  <skos:narrower rdf:resource='bizpurp:121'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>17</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:169'>
+  <skos:prefLabel>Real Property and Facilities</skos:prefLabel>
+  <skos:altLabel>8800 Real Property and Facilities</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>169</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:185'>
+  <skos:prefLabel>Fiscal Operations</skos:prefLabel>
+  <skos:altLabel>9600 Fiscal Operations</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>185</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:69'>
+  <skos:prefLabel>Employee Performance and Utilization</skos:prefLabel>
+  <skos:altLabel>3400 Employee Performance and Utilization</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>69</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:93'>
+  <skos:prefLabel>Expanded Supply Control</skos:prefLabel>
+  <skos:altLabel>4600 Expanded Supply Control</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>93</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:6'>
+  <skos:prefLabel>Organizational Structure</skos:prefLabel>
+  <skos:altLabel>1100 Organizational Structure</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>6</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:83'>
+  <skos:prefLabel>Inventory Management</skos:prefLabel>
+  <skos:altLabel>4100 Inventory Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>83</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:97'>
+  <skos:prefLabel>Contracts (Procurement)</skos:prefLabel>
+  <skos:altLabel>5100 Contracts (Procurement)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>97</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:34'>
+  <skos:prefLabel>Administrative Services</skos:prefLabel>
+  <skos:altLabel>1500 Administrative Services</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>34</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:36'>
+  <skos:prefLabel>Security</skos:prefLabel>
+  <skos:altLabel>1600 Security</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>36</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:85'>
+  <skos:prefLabel>Equipment Management</skos:prefLabel>
+  <skos:altLabel>4200 Equipment Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>85</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:63'>
+  <skos:prefLabel>Executive Human Resources Management</skos:prefLabel>
+  <skos:altLabel>3100 Executive Human Resources Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>63</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:71'>
+  <skos:prefLabel>Position Classification, Pay, and Allowances</skos:prefLabel>
+  <skos:altLabel>3500 Position Classification, Pay, and Allowances</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>71</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:163'>
+  <skos:prefLabel>Environmental Management</skos:prefLabel>
+  <skos:altLabel>8500 Environmental Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>163</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:89'>
+  <skos:prefLabel>Supply Cataloging</skos:prefLabel>
+  <skos:altLabel>4400 Supply Cataloging</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>89</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:48'>
+  <skos:prefLabel>Technology Transfer</skos:prefLabel>
+  <skos:broader rdf:resource='bizpurp:46'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>48</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:191'>
+  <skos:prefLabel>Audit Program</skos:prefLabel>
+  <skos:altLabel>9900 Audit Program</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:26'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>191</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:91'>
+  <skos:prefLabel>Storage and Distribution</skos:prefLabel>
+  <skos:altLabel>4500 Storage and Distribution</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>91</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:53'>
+  <skos:prefLabel>Automatic Data Processing Management</skos:prefLabel>
+  <skos:altLabel>2400 Automatic Data Processing Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>53</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:145'>
+  <skos:prefLabel>Program Operating Plans</skos:prefLabel>
+  <skos:altLabel>7600 Program Operating Plans</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>145</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:2'>
+  <skos:prefLabel>Administration</skos:prefLabel>
+  <skos:altLabel>1000-1999 Administration</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:32'/>
+  <skos:narrower rdf:resource='bizpurp:34'/>
+  <skos:narrower rdf:resource='bizpurp:30'/>
+  <skos:narrower rdf:resource='bizpurp:4'/>
+  <skos:narrower rdf:resource='bizpurp:28'/>
+  <skos:narrower rdf:resource='bizpurp:40'/>
+  <skos:narrower rdf:resource='bizpurp:6'/>
+  <skos:narrower rdf:resource='bizpurp:38'/>
+  <skos:narrower rdf:resource='bizpurp:36'/>
+  <skos:narrower rdf:resource='bizpurp:42'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>2</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:99'>
+  <skos:prefLabel>Contractor Labor Relations</skos:prefLabel>
+  <skos:altLabel>5200 Contractor Labor Relations</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>99</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:95'>
+  <skos:prefLabel>General (Procurement)</skos:prefLabel>
+  <skos:altLabel>5000 General (Procurement)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>95</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:57'>
+  <skos:prefLabel>Photographic Services Management</skos:prefLabel>
+  <skos:altLabel>2600 Photographic Services Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>57</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:87'>
+  <skos:prefLabel>Utilization and Disposal</skos:prefLabel>
+  <skos:altLabel>4300 Utilization and Disposal</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>87</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:73'>
+  <skos:prefLabel>Time and Attendance</skos:prefLabel>
+  <skos:altLabel>3600 Time and Attendance</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>73</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:123'>
+  <skos:prefLabel>Preparation and Handling of Cargo</skos:prefLabel>
+  <skos:altLabel>6400 Preparation and Handling of Cargo</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>123</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:137'>
+  <skos:prefLabel>Institutional Planning and Approval</skos:prefLabel>
+  <skos:altLabel>7200 Institutional Planning and Approval</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>137</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:171'>
+  <skos:prefLabel>Program Medical Support</skos:prefLabel>
+  <skos:altLabel>8900 Program Medical Support</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>171</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:115'>
+  <skos:prefLabel>General (Transportation)</skos:prefLabel>
+  <skos:altLabel>6000 General (Transportation)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>115</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:127'>
+  <skos:prefLabel>Transportation and Transport Engineering</skos:prefLabel>
+  <skos:altLabel>6600 Transportation and Transport Engineering</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>127</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:131'>
+  <skos:prefLabel>Passenger Transportation</skos:prefLabel>
+  <skos:altLabel>6800 Passenger Transportation</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>131</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:32'>
+  <skos:prefLabel>Administrative Management Programs</skos:prefLabel>
+  <skos:altLabel>1400 Administrative Management Programs</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>32</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:175'>
+  <skos:prefLabel>Agencywide Coding Structure</skos:prefLabel>
+  <skos:altLabel>9100 Agencywide Coding Structure</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>175</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:107'>
+  <skos:prefLabel>Statement of Work</skos:prefLabel>
+  <skos:altLabel>5600 Statement of Work</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>107</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:149'>
+  <skos:prefLabel>Resources Authority Allocation System</skos:prefLabel>
+  <skos:altLabel>7800 Resources Authority Allocation System</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>149</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:173'>
+  <skos:prefLabel>Principles and General Policies</skos:prefLabel>
+  <skos:altLabel>9000 Principles and General Policies</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>173</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:105'>
+  <skos:prefLabel>Patent Waiver</skos:prefLabel>
+  <skos:altLabel>5500 Patent Waiver</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>105</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:133'>
+  <skos:prefLabel>General (Program Formulation)</skos:prefLabel>
+  <skos:altLabel>7000 General (Program Formulation)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>133</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:38'>
+  <skos:prefLabel>Safety</skos:prefLabel>
+  <skos:altLabel>1700 Safety</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>38</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:179'>
+  <skos:prefLabel>Financial Reports</skos:prefLabel>
+  <skos:altLabel>9300 Financial Reports</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>179</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:147'>
+  <skos:prefLabel>Human Resources Utilization</skos:prefLabel>
+  <skos:altLabel>7700 Human Resources Utilization</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>147</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:46'>
+  <skos:prefLabel>Technology Utilization</skos:prefLabel>
+  <skos:altLabel>2100 Technology Utilization</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <skos:narrower rdf:resource='bizpurp:48'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>46</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:125'>
+  <skos:prefLabel>Special Airlift Services</skos:prefLabel>
+  <skos:altLabel>6500 Special Airlift Services</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>125</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:103'>
+  <skos:prefLabel>Contractor-Held Government Property</skos:prefLabel>
+  <skos:altLabel>5400 Contractor-Held Government Property</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>103</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:67'>
+  <skos:prefLabel>Employment</skos:prefLabel>
+  <skos:altLabel>3300 Employment</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>67</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:187'>
+  <skos:prefLabel>Travel Regulations</skos:prefLabel>
+  <skos:altLabel>9600 Travel Regulations</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>187</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:151'>
+  <skos:prefLabel>Aircraft Operations and Management</skos:prefLabel>
+  <skos:altLabel>7900 Aircraft Operations and Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>151</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:143'>
+  <skos:prefLabel>Commercialization</skos:prefLabel>
+  <skos:altLabel>7500 Commercialization</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>143</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:22'>
+  <skos:prefLabel>Program Management</skos:prefLabel>
+  <skos:altLabel>8000-8999 Program Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:155'/>
+  <skos:narrower rdf:resource='bizpurp:163'/>
+  <skos:narrower rdf:resource='bizpurp:153'/>
+  <skos:narrower rdf:resource='bizpurp:159'/>
+  <skos:narrower rdf:resource='bizpurp:165'/>
+  <skos:narrower rdf:resource='bizpurp:171'/>
+  <skos:narrower rdf:resource='bizpurp:169'/>
+  <skos:narrower rdf:resource='bizpurp:167'/>
+  <skos:narrower rdf:resource='bizpurp:157'/>
+  <skos:narrower rdf:resource='bizpurp:161'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>22</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:44'>
+  <skos:prefLabel>Laws and Legal Matters</skos:prefLabel>
+  <skos:altLabel>2000 Laws and Legal Matters</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>44</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:75'>
+  <skos:prefLabel>Personnel Relations and Services</skos:prefLabel>
+  <skos:altLabel>3700 Personnel Relations and Services</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>75</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:189'>
+  <skos:prefLabel>Investigations Program</skos:prefLabel>
+  <skos:altLabel>9800 Investigations Program</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:26'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>189</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:101'>
+  <skos:prefLabel>Reliability and Quality Assurance</skos:prefLabel>
+  <skos:altLabel>5300 Reliability and Quality Assurance</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>101</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:49'>
+  <skos:prefLabel>Scientific and Technical Information</skos:prefLabel>
+  <skos:altLabel>2200 Scientific and Technical Information</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>49</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:177'>
+  <skos:prefLabel>Accounting</skos:prefLabel>
+  <skos:altLabel>9200 Accounting</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>177</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:4'>
+  <skos:prefLabel>General</skos:prefLabel>
+  <skos:altLabel>1000 General</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>4</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:167'>
+  <skos:prefLabel>Safety and Mission Assurance</skos:prefLabel>
+  <skos:altLabel>8700 Safety and Mission Assurance</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>167</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:81'>
+  <skos:prefLabel>General (Property and Supply)</skos:prefLabel>
+  <skos:altLabel>4000 General (Property and Supply)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:13'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>81</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:51'>
+  <skos:prefLabel>Management Information Systems</skos:prefLabel>
+  <skos:altLabel>2300 Management Information Systems</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>51</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:77'>
+  <skos:prefLabel>Insurance and Annuities</skos:prefLabel>
+  <skos:altLabel>3800 Insurance and Annuities</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>77</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:40'>
+  <skos:prefLabel>Occupational Health</skos:prefLabel>
+  <skos:altLabel>1800 Occupational Health</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>40</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:26'>
+  <skos:prefLabel>Inspector General</skos:prefLabel>
+  <skos:altLabel>9800-9999 Inspector General</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:191'/>
+  <skos:narrower rdf:resource='bizpurp:189'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>26</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:183'>
+  <skos:prefLabel>Contractor Financial Management Reporting</skos:prefLabel>
+  <skos:altLabel>9500 Contractor Financial Management Reporting</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>183</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:42'>
+  <skos:prefLabel>Standards of Conduct</skos:prefLabel>
+  <skos:altLabel>1900 Standards of Conduct</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>42</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:121'>
+  <skos:prefLabel>Transportation of Unusual or Hazardous Cargo</skos:prefLabel>
+  <skos:altLabel>6300 Transportation of Unusual or Hazardous Cargo</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>121</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:139'>
+  <skos:prefLabel>Facility Planning and Approval</skos:prefLabel>
+  <skos:altLabel>7300 Facility Planning and Approval</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>139</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:30'>
+  <skos:prefLabel>External Relationships</skos:prefLabel>
+  <skos:altLabel>1300 External Relationships</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>30</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:55'>
+  <skos:prefLabel>Communications</skos:prefLabel>
+  <skos:altLabel>2500 Communications</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>55</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:59'>
+  <skos:prefLabel>Information Technology Management</skos:prefLabel>
+  <skos:altLabel>2800 Information Technology Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>59</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:8'>
+  <skos:prefLabel>Legal and Technical</skos:prefLabel>
+  <skos:altLabel>2000-2999 Legal and Technical</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:53'/>
+  <skos:narrower rdf:resource='bizpurp:55'/>
+  <skos:narrower rdf:resource='bizpurp:59'/>
+  <skos:narrower rdf:resource='bizpurp:44'/>
+  <skos:narrower rdf:resource='bizpurp:51'/>
+  <skos:narrower rdf:resource='bizpurp:57'/>
+  <skos:narrower rdf:resource='bizpurp:49'/>
+  <skos:narrower rdf:resource='bizpurp:46'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>8</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:157'>
+  <skos:prefLabel>Supporting Research and Technology</skos:prefLabel>
+  <skos:altLabel>8200 Supporting Research and Technology</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>157</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:119'>
+  <skos:prefLabel>Traffic Management Programs</skos:prefLabel>
+  <skos:altLabel>6200 Traffic Management Programs</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>119</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:113'>
+  <skos:prefLabel>Contractor Financial Management and Reporting</skos:prefLabel>
+  <skos:altLabel>5900 Contractor Financial Management and Reporting</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>113</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:109'>
+  <skos:prefLabel>Awards, Inventions, and Contributions</skos:prefLabel>
+  <skos:altLabel>5700 Awards, Inventions, and Contributions</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>109</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:161'>
+  <skos:prefLabel>Tracking and Data Acquisition</skos:prefLabel>
+  <skos:altLabel>8400 Tracking and Data Acquisition</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>161</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:1'>
+  <skos:prefLabel>Business Purpose</skos:prefLabel>
+  <skos:narrower rdf:resource='bizpurp:2'/>
+  <skos:narrower rdf:resource='bizpurp:24'/>
+  <skos:narrower rdf:resource='bizpurp:10'/>
+  <skos:narrower rdf:resource='bizpurp:26'/>
+  <skos:narrower rdf:resource='bizpurp:8'/>
+  <skos:narrower rdf:resource='bizpurp:15'/>
+  <skos:narrower rdf:resource='bizpurp:19'/>
+  <skos:narrower rdf:resource='bizpurp:22'/>
+  <skos:narrower rdf:resource='bizpurp:13'/>
+  <skos:narrower rdf:resource='bizpurp:17'/>
+  <skos:scopeNote>Adapted from NASA AFS (Archive Filing System)
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>1</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:61'>
+  <skos:prefLabel>General (Human Resources)</skos:prefLabel>
+  <skos:altLabel>3000 General (Human Resources)</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>61</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:10'>
+  <skos:prefLabel>Human Resources</skos:prefLabel>
+  <skos:altLabel>3000-3999 Human Resources</skos:altLabel>
+  <skos:altLabel>HR</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='WQQ-153'/>
+  <skos:narrower rdf:resource='bizpurp:69'/>
+  <skos:narrower rdf:resource='bizpurp:67'/>
+  <skos:narrower rdf:resource='bizpurp:63'/>
+  <skos:narrower rdf:resource='bizpurp:61'/>
+  <skos:narrower rdf:resource='bizpurp:77'/>
+  <skos:narrower rdf:resource='bizpurp:79'/>
+  <skos:narrower rdf:resource='bizpurp:65'/>
+  <skos:narrower rdf:resource='bizpurp:75'/>
+  <skos:narrower rdf:resource='bizpurp:73'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>10</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:65'>
+  <skos:prefLabel>Personnel Provisions</skos:prefLabel>
+  <skos:altLabel>3200 Personnel Provisions</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>65</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:129'>
+  <skos:prefLabel>Motor Vehicle Operation and Management</skos:prefLabel>
+  <skos:altLabel>6700 Motor Vehicle Operation and Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:17'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>129</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:24'>
+  <skos:prefLabel>Financial Management</skos:prefLabel>
+  <skos:altLabel>9000-9799</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='bizpurp:177'/>
+  <skos:narrower rdf:resource='bizpurp:175'/>
+  <skos:narrower rdf:resource='bizpurp:181'/>
+  <skos:narrower rdf:resource='bizpurp:183'/>
+  <skos:narrower rdf:resource='bizpurp:179'/>
+  <skos:narrower rdf:resource='bizpurp:185'/>
+  <skos:narrower rdf:resource='bizpurp:173'/>
+  <skos:narrower rdf:resource='bizpurp:187'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>24</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:141'>
+  <skos:prefLabel>Financial Reports Approval and Management</skos:prefLabel>
+  <skos:altLabel>7400 Financial Reports Approval and Management</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>141</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:159'>
+  <skos:prefLabel>Grants and Research Contracts</skos:prefLabel>
+  <skos:altLabel>8300 Grants and Research Contracts</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>159</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:135'>
+  <skos:prefLabel>Research and Development Planning and Approval</skos:prefLabel>
+  <skos:altLabel>7100 Research and Development Planning and Approval</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:19'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>135</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:15'>
+  <skos:prefLabel>Procurement</skos:prefLabel>
+  <skos:altLabel>5000-5999 Procurement</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:1'/>
+  <skos:narrower rdf:resource='WQQ-174'/>
+  <skos:narrower rdf:resource='bizpurp:113'/>
+  <skos:narrower rdf:resource='bizpurp:99'/>
+  <skos:narrower rdf:resource='bizpurp:103'/>
+  <skos:narrower rdf:resource='bizpurp:97'/>
+  <skos:narrower rdf:resource='bizpurp:95'/>
+  <skos:narrower rdf:resource='bizpurp:111'/>
+  <skos:narrower rdf:resource='bizpurp:105'/>
+  <skos:narrower rdf:resource='bizpurp:101'/>
+  <skos:narrower rdf:resource='bizpurp:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>15</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:111'>
+  <skos:prefLabel>Grants and Cooperative Agreements</skos:prefLabel>
+  <skos:altLabel>5800 Grants and Cooperative Agreements</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:15'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>111</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:28'>
+  <skos:prefLabel>Internal Management Controls</skos:prefLabel>
+  <skos:altLabel>1200 Internal Management Controls</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>28</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='bizpurp:165'>
+  <skos:prefLabel>Operations</skos:prefLabel>
+  <skos:altLabel>8600 Operations</skos:altLabel>
+  <skos:broader rdf:resource='bizpurp:22'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>165</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+    xmlns:skos='http://www.w3.org/2004/02/skos/core#'
+    xmlns:nt2='http://nasataxonomy.jpl.nasa.gov/cvFields#'
+    xmlns:dcterms='http://purl.org/dc/terms/'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'>
+ <skos:Concept rdf:about='loc:83'>
+  <skos:prefLabel>Phoebe</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>83</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:68'>
+  <skos:prefLabel>Prometheus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>68</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:87'>
+  <skos:prefLabel>Ophelia</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>87</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:34'>
+  <skos:prefLabel>Comet Giacobini-Zinner</skos:prefLabel>
+  <skos:altLabel>Giacobini-Zinner Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>34</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:82'>
+  <skos:prefLabel>Iapetus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>82</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:110'>
+  <skos:prefLabel>Despina</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>110</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:51'>
+  <skos:prefLabel>Thebe</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>51</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:6'>
+  <skos:prefLabel>Regions</skos:prefLabel>
+  <skos:broader rdf:resource='loc:5'/>
+  <skos:narrower rdf:resource='loc:7'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>6</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:5'>
+  <skos:prefLabel>Countries</skos:prefLabel>
+  <skos:broader rdf:resource='loc:4'/>
+  <skos:narrower rdf:resource='loc:6'/>
+  <skos:scopeNote>Use ISO 3166-1 country names.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>5</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:25'>
+  <skos:prefLabel>1 Ceres</skos:prefLabel>
+  <skos:altLabel>Ceres</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>25</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:64'>
+  <skos:prefLabel>Recently discovered moons</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>64</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:28'>
+  <skos:prefLabel>Comet Halley</skos:prefLabel>
+  <skos:altLabel>Halley's Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>28</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:105'>
+  <skos:prefLabel>Stephano</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>105</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:27'>
+  <skos:prefLabel>Comets</skos:prefLabel>
+  <skos:broader rdf:resource='loc:9'/>
+  <skos:narrower rdf:resource='loc:34'/>
+  <skos:narrower rdf:resource='loc:32'/>
+  <skos:narrower rdf:resource='loc:28'/>
+  <skos:narrower rdf:resource='loc:36'/>
+  <skos:narrower rdf:resource='loc:38'/>
+  <skos:narrower rdf:resource='loc:30'/>
+  <skos:narrower rdf:resource='loc:40'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>27</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:107'>
+  <skos:prefLabel>Neptune</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:110'/>
+  <skos:narrower rdf:resource='loc:111'/>
+  <skos:narrower rdf:resource='loc:112'/>
+  <skos:narrower rdf:resource='loc:108'/>
+  <skos:narrower rdf:resource='loc:115'/>
+  <skos:narrower rdf:resource='loc:113'/>
+  <skos:narrower rdf:resource='loc:109'/>
+  <skos:narrower rdf:resource='loc:114'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>107</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:73'>
+  <skos:prefLabel>Enceladus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>73</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:59'>
+  <skos:prefLabel>Elara</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>59</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:38'>
+  <skos:prefLabel>Comet P/Wirtanen</skos:prefLabel>
+  <skos:altLabel>P/Wirtanen Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>38</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:60'>
+  <skos:prefLabel>Ananke</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>60</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:118'>
+  <skos:prefLabel>Stars</skos:prefLabel>
+  <skos:broader rdf:resource='loc:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>118</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:58'>
+  <skos:prefLabel>Lysithea</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>58</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:79'>
+  <skos:prefLabel>Rhea</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>79</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:21'>
+  <skos:prefLabel>4660 Nereus</skos:prefLabel>
+  <skos:altLabel>Nereus</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>21</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:46'>
+  <skos:prefLabel>Deimos</skos:prefLabel>
+  <skos:broader rdf:resource='loc:44'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>46</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:80'>
+  <skos:prefLabel>Titan</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>80</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:1'>
+  <skos:prefLabel>Earth</skos:prefLabel>
+  <skos:broader rdf:resource='loc:2'/>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:4'/>
+  <skos:narrower rdf:resource='loc:8'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>1</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:2'>
+  <skos:prefLabel>Locations</skos:prefLabel>
+  <skos:narrower rdf:resource='loc:1'/>
+  <skos:narrower rdf:resource='loc:119'/>
+  <skos:narrower rdf:resource='loc:9'/>
+  <skos:narrower rdf:resource='loc:118'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>2</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:75'>
+  <skos:prefLabel>Telesto</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>75</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:119'>
+  <skos:prefLabel>Galaxies</skos:prefLabel>
+  <skos:broader rdf:resource='loc:2'/>
+  <skos:narrower rdf:resource='loc:121'/>
+  <skos:narrower rdf:resource='loc:120'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>119</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:67'>
+  <skos:prefLabel>Atlas</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>67</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:3'>
+  <skos:prefLabel>Planetary Systems</skos:prefLabel>
+  <skos:broader rdf:resource='loc:9'/>
+  <skos:narrower rdf:resource='loc:117'/>
+  <skos:narrower rdf:resource='loc:1'/>
+  <skos:narrower rdf:resource='loc:47'/>
+  <skos:narrower rdf:resource='loc:44'/>
+  <skos:narrower rdf:resource='loc:42'/>
+  <skos:narrower rdf:resource='loc:107'/>
+  <skos:narrower rdf:resource='loc:116'/>
+  <skos:narrower rdf:resource='loc:65'/>
+  <skos:narrower rdf:resource='loc:85'/>
+  <skos:narrower rdf:resource='loc:43'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>3</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:78'>
+  <skos:prefLabel>Helene</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>78</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:23'>
+  <skos:prefLabel>4 Vesta</skos:prefLabel>
+  <skos:altLabel>Vesta</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>23</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:48'>
+  <skos:prefLabel>Metis</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>48</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:71'>
+  <skos:prefLabel>Janus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>71</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:112'>
+  <skos:prefLabel>Larissa</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>112</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:7'>
+  <skos:prefLabel>Cities</skos:prefLabel>
+  <skos:broader rdf:resource='loc:6'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>7</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:96'>
+  <skos:prefLabel>Miranda</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>96</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:30'>
+  <skos:prefLabel>Comet Shoemaker-Levy 9</skos:prefLabel>
+  <skos:altLabel>Shoemaker-Levy 9 Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>30</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:50'>
+  <skos:prefLabel>Amalthea</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>50</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:95'>
+  <skos:prefLabel>Puck</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>95</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:97'>
+  <skos:prefLabel>Ariel</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>97</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:53'>
+  <skos:prefLabel>Europa</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>53</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:94'>
+  <skos:prefLabel>Belinda</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>94</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:103'>
+  <skos:prefLabel>Prospero</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>103</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:101'>
+  <skos:prefLabel>Caliban</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>101</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:116'>
+  <skos:prefLabel>Pluto</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>116</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:32'>
+  <skos:prefLabel>Comet Grigg-Skjellerup</skos:prefLabel>
+  <skos:altLabel>Grigg-Skjellerup Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>32</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:62'>
+  <skos:prefLabel>Pasiphae</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>62</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:47'>
+  <skos:prefLabel>Jupiter</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:49'/>
+  <skos:narrower rdf:resource='loc:50'/>
+  <skos:narrower rdf:resource='loc:60'/>
+  <skos:narrower rdf:resource='loc:55'/>
+  <skos:narrower rdf:resource='loc:61'/>
+  <skos:narrower rdf:resource='loc:59'/>
+  <skos:narrower rdf:resource='loc:53'/>
+  <skos:narrower rdf:resource='loc:54'/>
+  <skos:narrower rdf:resource='loc:57'/>
+  <skos:narrower rdf:resource='loc:52'/>
+  <skos:narrower rdf:resource='loc:56'/>
+  <skos:narrower rdf:resource='loc:58'/>
+  <skos:narrower rdf:resource='loc:48'/>
+  <skos:narrower rdf:resource='loc:62'/>
+  <skos:narrower rdf:resource='loc:64'/>
+  <skos:narrower rdf:resource='loc:63'/>
+  <skos:narrower rdf:resource='loc:51'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>47</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:70'>
+  <skos:prefLabel>Epimetheus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>70</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:13'>
+  <skos:prefLabel>243 Ida</skos:prefLabel>
+  <skos:altLabel>Ida</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>13</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:4'>
+  <skos:prefLabel>Continents</skos:prefLabel>
+  <skos:broader rdf:resource='loc:1'/>
+  <skos:narrower rdf:resource='loc:5'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>4</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:109'>
+  <skos:prefLabel>Thalassa</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>109</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:69'>
+  <skos:prefLabel>Pandora</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>69</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:66'>
+  <skos:prefLabel>Pan</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>66</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:92'>
+  <skos:prefLabel>Portia</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>92</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:19'>
+  <skos:prefLabel>1998 SF36</skos:prefLabel>
+  <skos:altLabel>SF36</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>19</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:55'>
+  <skos:prefLabel>Callisto</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>55</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:15'>
+  <skos:prefLabel>253 Mathilde</skos:prefLabel>
+  <skos:altLabel>Mathilde</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>15</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:63'>
+  <skos:prefLabel>Sinope</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>63</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:86'>
+  <skos:prefLabel>Cordelia</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>86</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:91'>
+  <skos:prefLabel>Juliet</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>91</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:85'>
+  <skos:prefLabel>Uranus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:106'/>
+  <skos:narrower rdf:resource='loc:97'/>
+  <skos:narrower rdf:resource='loc:94'/>
+  <skos:narrower rdf:resource='loc:88'/>
+  <skos:narrower rdf:resource='loc:101'/>
+  <skos:narrower rdf:resource='loc:86'/>
+  <skos:narrower rdf:resource='loc:89'/>
+  <skos:narrower rdf:resource='loc:90'/>
+  <skos:narrower rdf:resource='loc:91'/>
+  <skos:narrower rdf:resource='loc:96'/>
+  <skos:narrower rdf:resource='loc:100'/>
+  <skos:narrower rdf:resource='loc:87'/>
+  <skos:narrower rdf:resource='loc:92'/>
+  <skos:narrower rdf:resource='loc:103'/>
+  <skos:narrower rdf:resource='loc:95'/>
+  <skos:narrower rdf:resource='loc:93'/>
+  <skos:narrower rdf:resource='loc:104'/>
+  <skos:narrower rdf:resource='loc:105'/>
+  <skos:narrower rdf:resource='loc:102'/>
+  <skos:narrower rdf:resource='loc:99'/>
+  <skos:narrower rdf:resource='loc:98'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>85</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:8'>
+  <skos:prefLabel>The Moon</skos:prefLabel>
+  <skos:broader rdf:resource='loc:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>8</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:106'>
+  <skos:prefLabel>1986U10</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>106</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:49'>
+  <skos:prefLabel>Adrastea</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>49</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:88'>
+  <skos:prefLabel>Bianca</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>88</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:74'>
+  <skos:prefLabel>Tethys</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>74</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:76'>
+  <skos:prefLabel>Calypso</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>76</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:120'>
+  <skos:prefLabel>Milky Way</skos:prefLabel>
+  <skos:broader rdf:resource='loc:119'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>120</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:77'>
+  <skos:prefLabel>Dione</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>77</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:65'>
+  <skos:prefLabel>Saturn</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:67'/>
+  <skos:narrower rdf:resource='loc:76'/>
+  <skos:narrower rdf:resource='loc:77'/>
+  <skos:narrower rdf:resource='loc:73'/>
+  <skos:narrower rdf:resource='loc:70'/>
+  <skos:narrower rdf:resource='loc:78'/>
+  <skos:narrower rdf:resource='loc:81'/>
+  <skos:narrower rdf:resource='loc:82'/>
+  <skos:narrower rdf:resource='loc:71'/>
+  <skos:narrower rdf:resource='loc:72'/>
+  <skos:narrower rdf:resource='loc:66'/>
+  <skos:narrower rdf:resource='loc:69'/>
+  <skos:narrower rdf:resource='loc:83'/>
+  <skos:narrower rdf:resource='loc:68'/>
+  <skos:narrower rdf:resource='loc:84'/>
+  <skos:narrower rdf:resource='loc:79'/>
+  <skos:narrower rdf:resource='loc:75'/>
+  <skos:narrower rdf:resource='loc:74'/>
+  <skos:narrower rdf:resource='loc:80'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>65</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:108'>
+  <skos:prefLabel>Naiad</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>108</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:45'>
+  <skos:prefLabel>Phobos</skos:prefLabel>
+  <skos:broader rdf:resource='loc:44'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>45</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:114'>
+  <skos:prefLabel>Triton</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>114</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:40'>
+  <skos:prefLabel>Comet Tempel 1</skos:prefLabel>
+  <skos:altLabel>Tempel 1 Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>40</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:93'>
+  <skos:prefLabel>Rosalind</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>93</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:89'>
+  <skos:prefLabel>Cressida</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>89</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:115'>
+  <skos:prefLabel>Nereid</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>115</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:52'>
+  <skos:prefLabel>Io</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>52</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:84'>
+  <skos:prefLabel>Recently discovered satellites</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>84</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:54'>
+  <skos:prefLabel>Ganymede</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>54</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:100'>
+  <skos:prefLabel>Oberon</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>100</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:44'>
+  <skos:prefLabel>Mars</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <skos:narrower rdf:resource='loc:46'/>
+  <skos:narrower rdf:resource='loc:45'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>44</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:117'>
+  <skos:prefLabel>Charon</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>117</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:90'>
+  <skos:prefLabel>Desdemona</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>90</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:11'>
+  <skos:prefLabel>951 Gaspra</skos:prefLabel>
+  <skos:altLabel>Gaspra</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>11</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:36'>
+  <skos:prefLabel>Comet P/Wild 2</skos:prefLabel>
+  <skos:altLabel>P/Wild 2 Comet</skos:altLabel>
+  <skos:broader rdf:resource='loc:27'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>36</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:61'>
+  <skos:prefLabel>Carme</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>61</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:56'>
+  <skos:prefLabel>Leda</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>56</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:102'>
+  <skos:prefLabel>Sycorax</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>102</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:81'>
+  <skos:prefLabel>Hyperion</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>81</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:99'>
+  <skos:prefLabel>Titania</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>99</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:72'>
+  <skos:prefLabel>Mimas</skos:prefLabel>
+  <skos:broader rdf:resource='loc:65'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>72</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:17'>
+  <skos:prefLabel>433 Eros</skos:prefLabel>
+  <skos:altLabel>Eros</skos:altLabel>
+  <skos:broader rdf:resource='loc:10'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>17</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:42'>
+  <skos:prefLabel>Mercury</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>42</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:43'>
+  <skos:prefLabel>Venus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:3'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>43</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:104'>
+  <skos:prefLabel>Setebos</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>104</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:121'>
+  <skos:prefLabel>Groups, Clusters, and Superclusters</skos:prefLabel>
+  <skos:broader rdf:resource='loc:119'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>121</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:111'>
+  <skos:prefLabel>Galatea</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>111</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:9'>
+  <skos:prefLabel>Solar System</skos:prefLabel>
+  <skos:broader rdf:resource='loc:2'/>
+  <skos:narrower rdf:resource='loc:10'/>
+  <skos:narrower rdf:resource='loc:27'/>
+  <skos:narrower rdf:resource='loc:3'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>9</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:113'>
+  <skos:prefLabel>Proteus</skos:prefLabel>
+  <skos:broader rdf:resource='loc:107'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>113</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:10'>
+  <skos:prefLabel>Asteroids</skos:prefLabel>
+  <skos:broader rdf:resource='loc:9'/>
+  <skos:narrower rdf:resource='loc:25'/>
+  <skos:narrower rdf:resource='loc:19'/>
+  <skos:narrower rdf:resource='loc:13'/>
+  <skos:narrower rdf:resource='loc:15'/>
+  <skos:narrower rdf:resource='loc:23'/>
+  <skos:narrower rdf:resource='loc:17'/>
+  <skos:narrower rdf:resource='loc:21'/>
+  <skos:narrower rdf:resource='loc:11'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>10</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:57'>
+  <skos:prefLabel>Himalia</skos:prefLabel>
+  <skos:broader rdf:resource='loc:47'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>57</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='loc:98'>
+  <skos:prefLabel>Umbriel</skos:prefLabel>
+  <skos:broader rdf:resource='loc:85'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>98</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+</rdf:RDF>

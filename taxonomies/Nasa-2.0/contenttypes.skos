@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+    xmlns:skos='http://www.w3.org/2004/02/skos/core#'
+    xmlns:nt2='http://nasataxonomy.jpl.nasa.gov/cvFields#'
+    xmlns:dcterms='http://purl.org/dc/terms/'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'>
+ <skos:Concept rdf:about='genre:173'>
+  <skos:prefLabel>Meeting Documents</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:48'/>
+  <skos:narrower rdf:resource='genre:139'/>
+  <skos:narrower rdf:resource='genre:175'/>
+  <skos:narrower rdf:resource='genre:187'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>173</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:28'>
+  <skos:prefLabel>Checklists and Questionnaires</skos:prefLabel>
+  <skos:broader rdf:resource='genre:70'/>
+  <skos:narrower rdf:resource='genre:48'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>28</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:187'>
+  <skos:prefLabel>Presentations</skos:prefLabel>
+  <skos:altLabel>PowerPoints</skos:altLabel>
+  <skos:altLabel>Transparencies</skos:altLabel>
+  <skos:altLabel>Viewgraphs</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:broader rdf:resource='genre:173'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>187</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:134'>
+  <skos:prefLabel>Help Files</skos:prefLabel>
+  <skos:altLabel>How To’s</skos:altLabel>
+  <skos:altLabel>Online Help</skos:altLabel>
+  <skos:broader rdf:resource='genre:18'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>134</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:29'>
+  <skos:prefLabel>Technical Reports</skos:prefLabel>
+  <skos:altLabel>Scientific Reports</skos:altLabel>
+  <skos:broader rdf:resource='genre:115'/>
+  <skos:scopeNote>Reports giving details and results of a specific investigation of a scientific or technical problem.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>29</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:75'>
+  <skos:prefLabel>Press Kits</skos:prefLabel>
+  <skos:broader rdf:resource='genre:38'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>75</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:185'>
+  <skos:prefLabel>Physical Models</skos:prefLabel>
+  <skos:altLabel>Design Models</skos:altLabel>
+  <skos:altLabel>Mock-ups</skos:altLabel>
+  <skos:broader rdf:resource='genre:177'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>185</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:153'>
+  <skos:prefLabel>Educator's Guides</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>153</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:137'>
+  <skos:prefLabel>Site Maps</skos:prefLabel>
+  <skos:broader rdf:resource='genre:18'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>137</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:126'>
+  <skos:prefLabel>Military Specifications</skos:prefLabel>
+  <skos:altLabel>Milspecs</skos:altLabel>
+  <skos:broader rdf:resource='genre:125'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>126</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:38'>
+  <skos:prefLabel>Announcements</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:75'/>
+  <skos:narrower rdf:resource='genre:76'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>38</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:170'>
+  <skos:prefLabel>Lesson Plans</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>170</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:52'>
+  <skos:prefLabel>Configuration Controls</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <skos:scopeNote>"Records of changes to documentation or hardware, including engineering change requests and waivers."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>52</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:19'>
+  <skos:prefLabel>Planning Documents</skos:prefLabel>
+  <skos:altLabel>Configuration Control Plan</skos:altLabel>
+  <skos:altLabel>Data Management Plan</skos:altLabel>
+  <skos:altLabel>General Test Plan</skos:altLabel>
+  <skos:altLabel>Logistics Plan</skos:altLabel>
+  <skos:altLabel>Project Development Plan</skos:altLabel>
+  <skos:altLabel>Quality and Reliability Plan</skos:altLabel>
+  <skos:altLabel>System Safety Plan</skos:altLabel>
+  <skos:altLabel>Transportation Plan</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:72'/>
+  <skos:scopeNote>Project or task planning documents.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>19</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:7'>
+  <skos:prefLabel>Catalogs and Databases</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>7</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:140'>
+  <skos:prefLabel>Audio Files</skos:prefLabel>
+  <skos:broader rdf:resource='genre:178'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>140</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:62'>
+  <skos:prefLabel>Quality Control</skos:prefLabel>
+  <skos:altLabel>Mission Assurance</skos:altLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <skos:scopeNote>"Records of problems reported on hardware associated with flight and flight support equipment, including Quality Assurance and Safety records, Problem Failure Reports, Mission Failure Investigation Reports, Problem Reporting, and Correction Actions."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>62</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:179'>
+  <skos:prefLabel>Narrative Texts</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>179</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:81'>
+  <skos:prefLabel>Agreements</skos:prefLabel>
+  <skos:altLabel>Interface Control Documents</skos:altLabel>
+  <skos:altLabel>Letters of Agreement</skos:altLabel>
+  <skos:altLabel>Memoranda of Agreement</skos:altLabel>
+  <skos:altLabel>Memoranda of Understanding</skos:altLabel>
+  <skos:altLabel>Operational Interface Agreements</skos:altLabel>
+  <skos:altLabel>Service Level Agreements</skos:altLabel>
+  <skos:altLabel>Work Agreements</skos:altLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>81</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:114'>
+  <skos:prefLabel>Thesauri</skos:prefLabel>
+  <skos:broader rdf:resource='genre:111'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>114</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:6'>
+  <skos:prefLabel>Calendars and Schedules</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:139'/>
+  <skos:scopeNote>Use for chronological lists of events.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>6</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:226'>
+  <skos:prefLabel>Questionnaires</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>226</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:26'>
+  <skos:prefLabel>Patents</skos:prefLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>26</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:172'>
+  <skos:prefLabel>Mathematical Models</skos:prefLabel>
+  <skos:altLabel>Computer-aided Modeling</skos:altLabel>
+  <skos:broader rdf:resource='genre:177'/>
+  <skos:scopeNote>"Representations of conditions, processes, concepts, etc. using the scientific study of quantities. AAT"
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>172</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:72'>
+  <skos:prefLabel>Research and Technology Objectives and Plans</skos:prefLabel>
+  <skos:broader rdf:resource='genre:19'/>
+  <skos:scopeNote>"Documentation of management reviews and control of research in progress, to facilitate communication and coordination among technical personnel and to expedite the technology transfer process."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>72</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:76'>
+  <skos:prefLabel>Press Releases</skos:prefLabel>
+  <skos:altLabel>Press Notices</skos:altLabel>
+  <skos:broader rdf:resource='genre:38'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>76</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:154'>
+  <skos:prefLabel>Examinations</skos:prefLabel>
+  <skos:altLabel>Exams</skos:altLabel>
+  <skos:altLabel>Tests</skos:altLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <skos:scopeNote>"Written questions or exercises testing knowledge, aptitude, or skills."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>154</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:115'>
+  <skos:prefLabel>Reports</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:116'/>
+  <skos:narrower rdf:resource='genre:117'/>
+  <skos:narrower rdf:resource='genre:21'/>
+  <skos:narrower rdf:resource='genre:29'/>
+  <skos:scopeNote>"May include Reference, Technical, Progress, and Status Reports, Final Reports for completed projects, cancelled, terminated, or suspended projects, and reports received from subcontractors."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>115</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:116'>
+  <skos:prefLabel>Official Reports</skos:prefLabel>
+  <skos:broader rdf:resource='genre:115'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>116</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:189'>
+  <skos:prefLabel>Self-assessments</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>189</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:212'>
+  <skos:prefLabel>Maps</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>212</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:90'>
+  <skos:prefLabel>Legal Documents</skos:prefLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>90</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:112'>
+  <skos:prefLabel>Directories</skos:prefLabel>
+  <skos:broader rdf:resource='genre:111'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>112</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:21'>
+  <skos:prefLabel>Status Reports</skos:prefLabel>
+  <skos:broader rdf:resource='genre:115'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>21</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:193'>
+  <skos:prefLabel>Syllabi</skos:prefLabel>
+  <skos:altLabel>Curricula</skos:altLabel>
+  <skos:altLabel>Curriculum</skos:altLabel>
+  <skos:altLabel>Syllabus</skos:altLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>193</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:168'>
+  <skos:prefLabel>Learning Resource Types</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <skos:narrower rdf:resource='genre:151'/>
+  <skos:narrower rdf:resource='genre:154'/>
+  <skos:narrower rdf:resource='genre:156'/>
+  <skos:narrower rdf:resource='genre:157'/>
+  <skos:narrower rdf:resource='genre:158'/>
+  <skos:narrower rdf:resource='genre:161'/>
+  <skos:narrower rdf:resource='genre:163'/>
+  <skos:narrower rdf:resource='genre:169'/>
+  <skos:narrower rdf:resource='genre:179'/>
+  <skos:narrower rdf:resource='genre:188'/>
+  <skos:narrower rdf:resource='genre:226'/>
+  <skos:narrower rdf:resource='genre:189'/>
+  <skos:narrower rdf:resource='genre:191'/>
+  <skos:narrower rdf:resource='genre:192'/>
+  <skos:narrower rdf:resource='genre:195'/>
+  <skos:scopeNote>From IEEE LOM.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>168</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:31'>
+  <skos:prefLabel>Articles, Notes, and Papers</skos:prefLabel>
+  <skos:altLabel>Conference Papers</skos:altLabel>
+  <skos:altLabel>Engineering Notes</skos:altLabel>
+  <skos:altLabel>Lab Notes</skos:altLabel>
+  <skos:altLabel>Whitepapers</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>31</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:175'>
+  <skos:prefLabel>Minutes</skos:prefLabel>
+  <skos:altLabel>Meeting Notes</skos:altLabel>
+  <skos:broader rdf:resource='genre:173'/>
+  <skos:scopeNote>Formal and informal records of what was said and done at meetings or conferences.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>175</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:25'>
+  <skos:prefLabel>Educational Materials</skos:prefLabel>
+  <skos:altLabel>Instructional Materials</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:138'/>
+  <skos:narrower rdf:resource='genre:152'/>
+  <skos:narrower rdf:resource='genre:153'/>
+  <skos:narrower rdf:resource='genre:166'/>
+  <skos:narrower rdf:resource='genre:168'/>
+  <skos:narrower rdf:resource='genre:170'/>
+  <skos:narrower rdf:resource='genre:190'/>
+  <skos:narrower rdf:resource='genre:192'/>
+  <skos:narrower rdf:resource='genre:193'/>
+  <skos:narrower rdf:resource='genre:197'/>
+  <skos:narrower rdf:resource='genre:204'/>
+  <skos:narrower rdf:resource='genre:207'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>25</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:50'>
+  <skos:prefLabel>e-Mails</skos:prefLabel>
+  <skos:broader rdf:resource='genre:49'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>50</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:197'>
+  <skos:prefLabel>Textbooks</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>197</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:1'>
+  <skos:prefLabel>Content Types</skos:prefLabel>
+  <skos:altLabel>Document Types</skos:altLabel>
+  <skos:altLabel>Genres</skos:altLabel>
+  <skos:altLabel>Information	Forms</skos:altLabel>
+  <skos:altLabel>Resource Types</skos:altLabel>
+  <skos:narrower rdf:resource='WQQ-37'/>
+  <skos:narrower rdf:resource='WQQ-38'/>
+  <skos:narrower rdf:resource='genre:38'/>
+  <skos:narrower rdf:resource='genre:6'/>
+  <skos:narrower rdf:resource='genre:123'/>
+  <skos:narrower rdf:resource='genre:7'/>
+  <skos:narrower rdf:resource='genre:49'/>
+  <skos:narrower rdf:resource='genre:39'/>
+  <skos:narrower rdf:resource='genre:24'/>
+  <skos:narrower rdf:resource='genre:9'/>
+  <skos:narrower rdf:resource='genre:25'/>
+  <skos:narrower rdf:resource='genre:70'/>
+  <skos:narrower rdf:resource='genre:128'/>
+  <skos:narrower rdf:resource='genre:212'/>
+  <skos:narrower rdf:resource='genre:173'/>
+  <skos:narrower rdf:resource='genre:177'/>
+  <skos:narrower rdf:resource='genre:178'/>
+  <skos:narrower rdf:resource='genre:19'/>
+  <skos:narrower rdf:resource='genre:73'/>
+  <skos:narrower rdf:resource='genre:187'/>
+  <skos:narrower rdf:resource='genre:78'/>
+  <skos:narrower rdf:resource='genre:79'/>
+  <skos:narrower rdf:resource='genre:111'/>
+  <skos:narrower rdf:resource='genre:115'/>
+  <skos:narrower rdf:resource='genre:124'/>
+  <skos:narrower rdf:resource='genre:125'/>
+  <skos:narrower rdf:resource='genre:18'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>1</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:125'>
+  <skos:prefLabel>Standards</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:126'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>125</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:214'>
+  <skos:prefLabel>Illustrations</skos:prefLabel>
+  <skos:altLabel>Artwork</skos:altLabel>
+  <skos:altLabel>Graphics</skos:altLabel>
+  <skos:broader rdf:resource='genre:178'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>214</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:89'>
+  <skos:prefLabel>Financial Records</skos:prefLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <skos:scopeNote>"Documents relating to cost projections for projects or research and development activities, including information about objectives in terms of tasks, status, and time phasing for development, and funds required. May include schedules, direcly related forecast and actual costs, and electronic files used in resource management."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>89</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:80'>
+  <skos:prefLabel>Administrative Records</skos:prefLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>80</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:41'>
+  <skos:prefLabel>Bibliographic Databases</skos:prefLabel>
+  <skos:altLabel>Abstracting and Indexing Services</skos:altLabel>
+  <skos:altLabel>Bibliographic Data Bases</skos:altLabel>
+  <skos:broader rdf:resource='genre:39'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>41</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:204'>
+  <skos:prefLabel>Visual aids</skos:prefLabel>
+  <skos:altLabel>Visual Materials</skos:altLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <skos:scopeNote>"Any items that communicate information primarily visually and are used as aids in teaching. For items that communicate information primarily visually and are collected and made available as information resources, use ""Multimedia."""
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>204</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:48'>
+  <skos:prefLabel>Action Items</skos:prefLabel>
+  <skos:broader rdf:resource='genre:28'/>
+  <skos:broader rdf:resource='genre:173'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>48</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:102'>
+  <skos:prefLabel>Reviews, Results, and Analyses</skos:prefLabel>
+  <skos:altLabel>Configuration Inspections</skos:altLabel>
+  <skos:altLabel>Critical Design Reviews</skos:altLabel>
+  <skos:altLabel>Design Certification Reviews</skos:altLabel>
+  <skos:altLabel>Flight Readiness Reviews</skos:altLabel>
+  <skos:altLabel>Monthly Management Reviews</skos:altLabel>
+  <skos:altLabel>Post Flight Evaluations</skos:altLabel>
+  <skos:altLabel>Preliminary Design Reviews</skos:altLabel>
+  <skos:altLabel>Preliminary Requirement Reviews</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:20'/>
+  <skos:scopeNote>"Records which document Preliminary Requirement Reviews, Preliminary Design Reviews, Critical Design Reviews, Configuration Inspections, Design Certification Reviews, Flight Readiness Reviews, Monthly Management Reviews, Post Flight Evaluations, and other reviews. Records may include action items and waivers."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>102</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:151'>
+  <skos:prefLabel>Diagrams</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>151</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:169'>
+  <skos:prefLabel>Lectures</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>169</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:20'>
+  <skos:prefLabel>Lessons Learned</skos:prefLabel>
+  <skos:broader rdf:resource='WQQ-38'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>20</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:91'>
+  <skos:prefLabel>Procurement Records</skos:prefLabel>
+  <skos:altLabel>Contracts</skos:altLabel>
+  <skos:altLabel>Proposals</skos:altLabel>
+  <skos:altLabel>Requests for Proposals</skos:altLabel>
+  <skos:altLabel>RFPs</skos:altLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <skos:scopeNote>"Project copies of RFPs, proposals, contracts, and other procurements-related records."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>91</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:111'>
+  <skos:prefLabel>Reference Sources</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:112'/>
+  <skos:narrower rdf:resource='genre:113'/>
+  <skos:narrower rdf:resource='genre:23'/>
+  <skos:narrower rdf:resource='genre:114'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>111</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-69'>
+  <skos:prefLabel>Problem Failure Report			2001</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:123'>
+  <skos:prefLabel>Case Studies</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>123</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:139'>
+  <skos:prefLabel>Agendas</skos:prefLabel>
+  <skos:broader rdf:resource='genre:6'/>
+  <skos:broader rdf:resource='genre:173'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>139</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-67'>
+  <skos:prefLabel>Incident Surprise Anomaly			2003</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:64'>
+  <skos:prefLabel>Requirements</skos:prefLabel>
+  <skos:altLabel>Functional Requirements</skos:altLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <skos:scopeNote>"Documents that establish the requirements of spacecraft, hardware, software, or computer systems as needed to fulfill the project objectives."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>64</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:199'>
+  <skos:prefLabel>Video Files</skos:prefLabel>
+  <skos:altLabel>Video Recordings</skos:altLabel>
+  <skos:altLabel>Videos</skos:altLabel>
+  <skos:altLabel>Videotape Recordings</skos:altLabel>
+  <skos:broader rdf:resource='genre:178'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>199</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:56'>
+  <skos:prefLabel>Notebooks</skos:prefLabel>
+  <skos:altLabel>Engineering Notebooks</skos:altLabel>
+  <skos:altLabel>Lab Notebooks</skos:altLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <skos:scopeNote>"A hardcopy laboratory notebook or similar documentation system, used to record all reportable technology."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>56</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:195'>
+  <skos:prefLabel>Tables</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>195</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:96'>
+  <skos:prefLabel>Project Authorization Files</skos:prefLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <skos:scopeNote>Documents reflecting actions leading up to and including the authorization for initiation of a project.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>96</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:24'>
+  <skos:prefLabel>Designs and Specifications</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:52'/>
+  <skos:narrower rdf:resource='WQQ-54'/>
+  <skos:narrower rdf:resource='WQQ-65'/>
+  <skos:narrower rdf:resource='WQQ-66'/>
+  <skos:narrower rdf:resource='WQQ-67'/>
+  <skos:narrower rdf:resource='genre:56'/>
+  <skos:narrower rdf:resource='WQQ-69'/>
+  <skos:narrower rdf:resource='WQQ-70'/>
+  <skos:narrower rdf:resource='genre:62'/>
+  <skos:narrower rdf:resource='genre:64'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>24</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:113'>
+  <skos:prefLabel>Gazetteers</skos:prefLabel>
+  <skos:broader rdf:resource='genre:111'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>113</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-66'>
+  <skos:prefLabel>Failure Report			2002</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:178'>
+  <skos:prefLabel>Multimedia</skos:prefLabel>
+  <skos:altLabel>Visual Resources</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:140'/>
+  <skos:narrower rdf:resource='genre:214'/>
+  <skos:narrower rdf:resource='genre:183'/>
+  <skos:narrower rdf:resource='genre:199'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>178</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:18'>
+  <skos:prefLabel>Web Pages</skos:prefLabel>
+  <skos:altLabel>Web sites</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:132'/>
+  <skos:narrower rdf:resource='genre:134'/>
+  <skos:narrower rdf:resource='genre:137'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>18</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:207'>
+  <skos:prefLabel>Workbooks</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>207</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:190'>
+  <skos:prefLabel>Self-instructional materials</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>190</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-65'>
+  <skos:prefLabel>Discrepancy Report			2006</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:191'>
+  <skos:prefLabel>Simulations</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>191</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:9'>
+  <skos:prefLabel>Drawings</skos:prefLabel>
+  <skos:altLabel>CAD</skos:altLabel>
+  <skos:altLabel>Computer-aided Design</skos:altLabel>
+  <skos:altLabel>Engineering Drawings</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:scopeNote>"Original drawings and specifications that show experimental, preliminary, and final versions created in connection with a project, including electronic files created by CAD programs."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>9</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-54'>
+  <skos:prefLabel>Corrective Action Notice			2005</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:158'>
+  <skos:prefLabel>Figures</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>158</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:183'>
+  <skos:prefLabel>Photographs</skos:prefLabel>
+  <skos:altLabel>Photos</skos:altLabel>
+  <skos:broader rdf:resource='genre:178'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>183</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:157'>
+  <skos:prefLabel>Experiments</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>157</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:188'>
+  <skos:prefLabel>Problem Statements</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>188</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:23'>
+  <skos:prefLabel>Glossaries</skos:prefLabel>
+  <skos:broader rdf:resource='genre:111'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>23</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:166'>
+  <skos:prefLabel>Labs</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>166</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:177'>
+  <skos:prefLabel>Models (Representations)</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:172'/>
+  <skos:narrower rdf:resource='genre:185'/>
+  <skos:scopeNote>"Refers to scaled representations of objects or structures, usually three-dimensional. AAT"
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>177</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:156'>
+  <skos:prefLabel>Exercises</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>156</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:51'>
+  <skos:prefLabel>Memos</skos:prefLabel>
+  <skos:altLabel>Memoranda</skos:altLabel>
+  <skos:broader rdf:resource='genre:49'/>
+  <skos:scopeNote>Internal form of correspondence.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>51</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:78'>
+  <skos:prefLabel>Program Descriptions</skos:prefLabel>
+  <skos:altLabel>Program Specifications</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>78</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='WQQ-70'>
+  <skos:prefLabel>Problem Log			2004</skos:prefLabel>
+  <skos:broader rdf:resource='genre:24'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:163'>
+  <skos:prefLabel>Indexes</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>163</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:152'>
+  <skos:prefLabel>Educational Toys</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>152</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:70'>
+  <skos:prefLabel>Forms and Templates</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:28'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>70</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:49'>
+  <skos:prefLabel>Correspondence</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:50'/>
+  <skos:narrower rdf:resource='genre:51'/>
+  <skos:scopeNote>Correspondence relating to a project.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>49</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:117'>
+  <skos:prefLabel>Proceedings</skos:prefLabel>
+  <skos:altLabel>Conference Proceedings</skos:altLabel>
+  <skos:altLabel>Conference Reports</skos:altLabel>
+  <skos:altLabel>Transactions</skos:altLabel>
+  <skos:broader rdf:resource='genre:115'/>
+  <skos:scopeNote>"Structured Records of meetings of a society or other organization, usually published, and frequently accompanied by abstracts or reports of papers presented."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>117</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:132'>
+  <skos:prefLabel>FAQs</skos:prefLabel>
+  <skos:altLabel>Frequently Asked Questions</skos:altLabel>
+  <skos:broader rdf:resource='genre:18'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>132</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:45'>
+  <skos:prefLabel>Image Databases</skos:prefLabel>
+  <skos:altLabel>Image Data Bases</skos:altLabel>
+  <skos:broader rdf:resource='genre:39'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>45</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:73'>
+  <skos:prefLabel>Policies and Procedures</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>73</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:98'>
+  <skos:prefLabel>Qualification Records</skos:prefLabel>
+  <skos:altLabel>Qualifications</skos:altLabel>
+  <skos:altLabel>Quals</skos:altLabel>
+  <skos:broader rdf:resource='genre:79'/>
+  <skos:scopeNote>Documents a vendor's adherence to project requirements.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>98</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:128'>
+  <skos:prefLabel>Manuals</skos:prefLabel>
+  <skos:altLabel>Technical Manuals</skos:altLabel>
+  <skos:altLabel>Training Manuals</skos:altLabel>
+  <skos:altLabel>User Guides</skos:altLabel>
+  <skos:altLabel>User Manuals</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>128</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:39'>
+  <skos:prefLabel>Databases</skos:prefLabel>
+  <skos:altLabel>Data bases</skos:altLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:41'/>
+  <skos:narrower rdf:resource='genre:45'/>
+  <skos:scopeNote>"Structured assemblies of logically related data, usually machine-readable data, designed to meet various applications but managed independently of them."
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>39</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:124'>
+  <skos:prefLabel>Software</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>124</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:138'>
+  <skos:prefLabel>Activity Guides</skos:prefLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>138</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:161'>
+  <skos:prefLabel>Graphs</skos:prefLabel>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>161</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:79'>
+  <skos:prefLabel>Records</skos:prefLabel>
+  <skos:broader rdf:resource='genre:1'/>
+  <skos:narrower rdf:resource='genre:80'/>
+  <skos:narrower rdf:resource='genre:81'/>
+  <skos:narrower rdf:resource='genre:89'/>
+  <skos:narrower rdf:resource='genre:90'/>
+  <skos:narrower rdf:resource='genre:26'/>
+  <skos:narrower rdf:resource='genre:91'/>
+  <skos:narrower rdf:resource='genre:96'/>
+  <skos:narrower rdf:resource='genre:98'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>79</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+ <skos:Concept rdf:about='genre:192'>
+  <skos:prefLabel>Slides</skos:prefLabel>
+  <skos:altLabel>PowerPoints</skos:altLabel>
+  <skos:altLabel>Transparencies</skos:altLabel>
+  <skos:altLabel>Viewgraphs</skos:altLabel>
+  <skos:broader rdf:resource='genre:25'/>
+  <skos:broader rdf:resource='genre:168'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:code>192</nt2:code>
+  <nt2:inputdate>2004-05-01</nt2:inputdate>
+  <dcterms:dateAccepted>2004-06-11</dcterms:dateAccepted>
+  <dcterms:modified>2004-06-11</dcterms:modified>
+ </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+    xmlns:skos='http://www.w3.org/2004/02/skos/core#'
+    xmlns:nt2='http://nasataxonomy.jpl.nasa.gov/cvFields#'
+    xmlns:dcterms='http://purl.org/dc/terms/'
+    xmlns:dc='http://purl.org/dc/elements/1.1/'>
+ <skos:Concept rdf:about='nasa:access:13'>
+  <skos:prefLabel>Patents and Intellectual Property</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information disclosing a new invention in which the Federal
+    Government owns or may own a right, title, or interest.
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>13</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:4'>
+  <skos:prefLabel>Public</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:1'/>
+  <skos:scopeNote>Materials which have been reviewed and whose release to the
+    public has been approved.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>4</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:10'>
+  <skos:prefLabel>FOIA-exempt</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information originated within or furnished to NASA that
+    falls under one or more of the exemption criteria of the
+    Freedom of Information Act (5 U.S.C. §552). Other
+    categories of SBU do not imply that the information has
+    been determined to be exempt from disclosure under FOIA.
+    Requests under FOIA, for information designated as SBU,
+    will be reviewed and processed in the same manner as any
+    other FOIA request.
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-26</dcterms:modified>
+  <nt2:code>10</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:11'>
+  <skos:prefLabel>Export Controlled</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information subject to export control under the
+    International Traffic in Arms Regulations (ITAR) or the
+    Export Administration Regulations (EAR).
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>11</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:2'>
+  <skos:prefLabel>Classified</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:1'/>
+  <skos:narrower rdf:resource='nasa:access:6'/>
+  <skos:narrower rdf:resource='nasa:access:7'/>
+  <skos:narrower rdf:resource='nasa:access:8'/>
+  <skos:scopeNote>Materials which have access controlled for reasons of
+    national security. Materials should not be marked as
+    "Classified", they must be marked according to the more
+    specific classification levels of Confidential, Secret, or
+    Top Secret.
+    Classified materials must not be transferred to an
+    unclassified system.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Node label</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>2</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:3'>
+  <skos:prefLabel>Sensitive But Unclassified</skos:prefLabel>
+  <skos:altLabel>SBU</skos:altLabel>
+  <skos:broader rdf:resource='nasa:access:1'/>
+  <skos:narrower rdf:resource='nasa:access:11'/>
+  <skos:narrower rdf:resource='nasa:access:10'/>
+  <skos:narrower rdf:resource='nasa:access:17'/>
+  <skos:narrower rdf:resource='nasa:access:12'/>
+  <skos:narrower rdf:resource='nasa:access:13'/>
+  <skos:narrower rdf:resource='nasa:access:16'/>
+  <skos:narrower rdf:resource='nasa:access:14'/>
+  <skos:narrower rdf:resource='nasa:access:15'/>
+  <skos:scopeNote>Information, regardless of its form (digital, hard-copy,
+    magnetic tape, etc.), the release of which could cause harm
+    to a person's privacy or welfare, adversely impact economic
+    or industrial institutions, or compromise programs or
+    operations essential to the safeguarding of our national
+    interests is designated as SBU to control or restrict its
+    access. Information designated as SBU shall be afforded
+    appropriate protection sufficient to safeguard it from
+    unauthorized disclosure.
+    Within NASA and the Federal Government, such information
+    had previously been designated "FOR OFFICIAL USE ONLY."
+    This designation was changed at NASA to "Administratively
+    Controlled Information" for clarity and to more accurately
+    describe the status of information to be protected.
+    However, recent efforts to apply consistent terminology
+    across multiple federal agencies have prompted NASA to
+    change the designation to "Sensitive but Unclassified."
+    Therefore the caveat "SENSITIVE BUT UNCLASSIFIED (SBU)"
+    will be used to identify sensitive but unclassified
+    information within the NASA community when that information
+    is not otherwise specifically described and governed by
+    statute or regulation. The use of caveats other than SBU
+    will be governed by the statutes and regulations issued for
+    the applicable category of information.
+    (Source: NPR 1600.1 NASA Security Program Procedural
+    Requirements, Section 5.2.4).
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-26</dcterms:modified>
+  <nt2:code>3</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:6'>
+  <skos:prefLabel>Confidential</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>6</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:5'>
+  <skos:prefLabel>Unreviewed</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:1'/>
+  <skos:scopeNote>Used to mark materials which have not been reviewed for
+    relase to the public. Until they have been reviewed, the
+    materials should be treated as Sensitive But Unclassified,
+    with moderate levels of risk around compromise of their
+    confidentiality, integrity, and availability.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-26</dcterms:modified>
+  <nt2:code>5</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:16'>
+  <skos:prefLabel>Privacy Act</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information subject to the Privacy Act of 1974 (5 U.S.C.
+    §552a).
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>16</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:17'>
+  <skos:prefLabel>NASA Designated</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information that is determined by a designated NASA
+    official to be unusually sensitive (refer to paragraph
+    5.22.5. for decontrol provisions). The following are
+    examples of such information.
+    (1) Predecisional materials such as national space policy
+    not yet publicly released, pending reorganization plans, or
+    sensitive travel itineraries
+    (2) Geological and geophysical information and data,
+    including maps, concerning wells.
+    (3) Center maps and/or plain text documents describing
+    locations/directions (e.g., latitude, longitude, depth,
+    etc.) of underground utility conduits (e.g., sewers, gas,
+    data, communications, etc.).
+    (4) Drawings and specifications that identify existing or
+    proposed security measures for mission essential
+    infrastructure designated assets or other key resources
+    (5) Mission specific security plans that identify
+    protective measures and procedures for assets that are
+    sensitive in nature but are not classified. (Example:
+    Payloads that utilize special nuclear materials, payloads
+    that contain certain animal experiments, and STS missions,
+    as determined by the CCS, etc.)
+    (6) Emergency contingency or continuity of operations plans
+    that provide detailed information regarding emergency
+    response processes and procedures that, if publicized,
+    could give a potential adversary vital information with
+    which to thwart or compromise emergency response efforts.
+    (7) Sensitive scientific and technical information (STI)
+    (See NPD 2200.1 and NPR 2200.2 for requirements for
+    documentation, approval, and dissemination of NASA STI).
+    (8) Information that could result in physical risk to
+    personnel.
+    (9) NASA information technology (IT) internal systems data
+    revealing infrastructure used for servers, desktops, and
+    networks; applications name, version and release;
+    switching, router, and gateway information;
+    interconnections and access methods; mission or business
+    use/need. Examples of information are systems inventories
+    and enterprise architecture models.
+    (10) Systems security data revealing the security posture
+    of the system. For example, threat assessments, system
+    security plans, contingency plans, risk management plans,
+    Business Impact Analysis studies, and Certification and
+    Accreditation documentation.
+    (11) Reviews or reports illustrating or disclosing facility
+    infrastructure or security vulnerabilities, whether to
+    persons, systems, or facilities, not otherwise eligible for
+    classification under Executive Order 12958, as amended.
+    (12) Information that could constitute an indicator of U.S.
+    government intentions, capabilities, operations, or
+    activities or otherwise threaten operations security.
+    (13) Developing or current technology, the release of which
+    could hinder the objectives of NASA, compromise a
+    technological advantage or countermeasure, cause a denial
+    of service, or provide an adversary with sufficient
+    information to clone, counterfeit, or circumvent a process
+    or system.
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>17</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:15'>
+  <skos:prefLabel>Space Act</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Information developed by NASA under a Space Act agreement
+    and subject to section 303(b) of the Space Act (42 U.S.C.
+    2454(b)).
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>15</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:12'>
+  <skos:prefLabel>Non-NASA Proprietary</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Proprietary information of others provided to NASA under a
+    nondisclosure or confidentiality agreement.
+    
+    Small Business Innovative Research Data, Limited Rights
+    Data, and Restricted Computer Software received in
+    performance of NASA contracts
+    
+    Information concerning or relating to private entity trade
+    secrets or confidential commercial or financial information
+    received by a NASA employee in the course of government
+    employment or official duties.
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>12</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:8'>
+  <skos:prefLabel>Top Secret</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>8</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:1'>
+  <skos:prefLabel>Access Controls</skos:prefLabel>
+  <skos:narrower rdf:resource='nasa:access:2'/>
+  <skos:narrower rdf:resource='nasa:access:4'/>
+  <skos:narrower rdf:resource='nasa:access:3'/>
+  <skos:narrower rdf:resource='nasa:access:5'/>
+  <skos:scopeNote>Based on NPR 1450.10D (for Classified) Section 8and NPR
+    1600.1 (NASA Security Program Procedural Requirements),
+    Section 5.24, and discussions with the NASA Taxonomy Team.
+    
+    This vocabulary is not intended for designing systems. It
+    is intended to be used to mark individual information items
+    so that their access can be controlled properly when they
+    are moved between systems. For selecting the proper access
+    controls when designing information systems, see NASA NPR
+    2810 and NASA IS-SOP-0019B.
+  </skos:scopeNote>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-26</dcterms:modified>
+  <nt2:code>1</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:14'>
+  <skos:prefLabel>Procurement Sensitive</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:3'/>
+  <skos:scopeNote>Source selection and bid and proposal information.
+  </skos:scopeNote>
+  <nt2:status>Candidate</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>14</nt2:code>
+ </skos:Concept>
+ <skos:Concept rdf:about='nasa:access:7'>
+  <skos:prefLabel>Secret</skos:prefLabel>
+  <skos:broader rdf:resource='nasa:access:2'/>
+  <nt2:status>Approved</nt2:status>
+  <nt2:type>Descriptor</nt2:type>
+  <nt2:inputdate>2007-01-26</nt2:inputdate>
+  <dcterms:dateAccepted>2007-01-26</dcterms:dateAccepted>
+  <dcterms:modified>2007-01-27</dcterms:modified>
+  <nt2:code>7</nt2:code>
+ </skos:Concept>
+</rdf:RDF>

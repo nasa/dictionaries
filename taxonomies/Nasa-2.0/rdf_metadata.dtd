@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  NASA_RDF_Metadata.dtd - A simple DTD for an RDF-compliant metadata
+  format using the NASA Taxonomy project's metadata recommendation.
+-->
+
+<!ELEMENT rdf:RDF (ntmr:Item)+ >
+<!ATTLIST rdf:RDF
+   xmlns:rdf	CDATA #FIXED "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc	CDATA #FIXED "http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms	CDATA #FIXED "http://purl.org/dc/terms/"
+   xmlns:ntmr	CDATA #FIXED
+		"http://nasa.gov/namespaces/TaxonomyProjectMetadataRec/1.0/"
+>
+
+<!ELEMENT ntmr:Item ((dc:title | dc:description | dc:publisher
+                   | dc:date | dc:type | dc:format | dc:subject | dc:coverage
+                   | dcterms:accessRights | dcterms:audience
+                   | ntmr:missionsProjects | ntmr:keywords
+                   | ntmr:businessPurpose | ntmr:instruments)+)>
+<!ATTLIST ntmr:Item
+	  xml:lang  CDATA  #IMPLIED
+          rdf:about CDATA #REQUIRED >
+
+<!ELEMENT dc:title (#PCDATA) >
+<!ATTLIST dc:title
+	  xml:lang  CDATA  #IMPLIED>
+
+<!ELEMENT dc:description (#PCDATA) >
+<!ATTLIST dc:description
+	  xml:lang  CDATA  #IMPLIED>
+
+<!ELEMENT dc:publisher EMPTY>
+<!ATTLIST dc:publisher
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT dc:date (#PCDATA) >
+
+<!ELEMENT dc:type EMPTY>
+<!ATTLIST dc:type
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT dc:format (#PCDATA) >
+
+<!ELEMENT dc:subject EMPTY>
+<!ATTLIST dc:subject
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT dc:coverage EMPTY>
+<!ATTLIST dc:coverage
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT dcterms:accessRights EMPTY>
+<!ATTLIST dcterms:accessRights
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT dcterms:audience EMPTY>
+<!ATTLIST dcterms:audience
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT ntmr:missionsProjects EMPTY>
+<!ATTLIST ntmr:missionsProjects
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT ntmr:keywords (#PCDATA) >
+<!ATTLIST ntmr:keywords
+	  xml:lang  CDATA  #IMPLIED>
+
+<!ELEMENT ntmr:businessPurpose EMPTY>
+<!ATTLIST ntmr:businessPurpose
+          rdf:resource CDATA #REQUIRED >
+
+<!ELEMENT ntmr:instruments EMPTY>
+<!ATTLIST ntmr:instruments
+          rdf:resource CDATA #REQUIRED >
+
+
