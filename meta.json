@@ -1,0 +1,16 @@
+{
+"title": "dictionaries", 
+"visibility": "public", 
+"type": "GIT", 
+"description": "Collection of NASA thesauri, dictionaries, taxonomies and related documents", 
+"url": "https://github.com/nasa/dictionaries",
+"repo": "nasa/dictionaries",
+"missions":["OCIO", "HQ"], 
+"categories": ["Citizen Science", "NASA", "Open Data", "Data Science"], 
+"languages": ["Python"],
+"operating_systems": ["Linux", "Unix", "Mac"],  
+"poc": "Brian Thomas", 
+"poc_mbox": "brian.a.thomas@nasa.gov", 
+"license": "NASA Open Source Agreement Version 1.3", 
+"software_types": ["service", "utilities"]
+}
