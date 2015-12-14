@@ -40,27 +40,28 @@ def load_skos(skos_file):
     graph = rdflib.ConjunctiveGraph()
     graph.parse(data=data, format="application/rdf+xml")
     
-    for x in graph.triples((None, None, ns.RDF.Statement)): 
-        print (str(x))
-
     # got through all of the concepts
-    '''
+    # find definitions, and add them as skos:definition
+    #
+    termNote = rdflib.term.URIRef("http://synaptica.net/zthes/termNote")
+    definition = rdflib.term.Literal("Definition")
+    zlabel = rdflib.term.URIRef("http://synaptica.net/zthes/label")
     for x in graph.triples((None, ns.RDF.type, ns.SKOS.Concept)): 
-            
-        for d in graph.triples((x[0], None, None)): 
-            print (str(d))
-
-        # get the definition, if defined
-        for d in graph.triples((x[0], rdflib.term.URIRef("http://synaptica.net/zthes/termNote"), None)): 
-            if d[2] == DEF_LITERAL:
-                LOG.info("-----> GOT DEF:"+str(d))
+        
+        # find IF termNotes for "Definition" exist for this concept
+        for tn in graph.triples((x[0], termNote, definition)): 
+            id = "Definition-" + str(x[0]).replace("#","") 
+            for d in graph.triples((rdflib.term.URIRef(id), zlabel, None)): 
+                #print ("Concept "+str(x[0])+" skos:definition:"+str(d[2]))
+                # add the content as skos:definition to the concept
+                graph.add((x[0], ns.SKOS.definition, d[2])) 
 
         #for l in graph.triples((x[0], ns.SKOS.narrower, None)): 
         #    LOG.debug(" narrower: "+str(l[2]))
     
     graph.serialize(destination='output.ttl', format='turtle')
     graph.serialize(destination='output.xml', format='pretty-xml')
-    '''
+
     LOG.info("Finished")
 
 
