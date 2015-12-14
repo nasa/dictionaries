@@ -59,7 +59,7 @@ def load_skos(skos_file):
         #for l in graph.triples((x[0], ns.SKOS.narrower, None)): 
         #    LOG.debug(" narrower: "+str(l[2]))
     
-    graph.serialize(destination='output.ttl', format='turtle')
+    #graph.serialize(destination='output.ttl', format='turtle')
     graph.serialize(destination='output.xml', format='pretty-xml')
 
     LOG.info("Finished")
