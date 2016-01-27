@@ -35,6 +35,10 @@ def _parent_from_content_node (node):
             else:
                 raise Exception("Got Content node but NO extension/restriction child")
             
+    # strip off the leading namespace prefix
+    if parent != None and "pds:" in parent:
+        parent = parent.replace("pds:", "")
+    
     return parent
 
 def convert_xsd_to_skos (file):
@@ -57,7 +61,7 @@ def convert_xsd_to_skos (file):
     LOG.debug("parse XSD complexTypes to concepts") 
     doc = etree.fromstring(data.strip())
     
-    # gather types
+    # gather ComplexTypes, which are the definitions of Concepts
     for ctype in doc.xpath("//xs:complexType", namespaces=NAMESPACES):
         
         # get the name
@@ -83,11 +87,14 @@ def convert_xsd_to_skos (file):
             scontent = ctype.xpath(".//xs:simpleContent", namespaces=NAMESPACES)
             parent = _parent_from_content_node(scontent)
         
-        LOG.debug("       parent: "+str(parent)+"\n")
-        
+        # create the SKOS statements
         graph.add((URIRef(uri), RDF['type'], skos['Concept']))
         graph.add((URIRef(uri), skos['prefLabel'], Literal(name, lang='en')))
         graph.add((URIRef(uri), skos['definition'], Literal(definition, lang='en')))
+        if parent:
+            # add in skos:broader relationship IF we have a parent for this Concept
+            LOG.debug("       parent: "+str(parent)+"\n")
+            graph.add((URIRef(uri), skos['broader'], URIRef(parent)))
     
     '''
     # Needed? Gather up element (instances) of types
