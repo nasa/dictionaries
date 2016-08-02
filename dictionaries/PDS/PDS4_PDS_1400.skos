@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:Concept rdf:about="File_Area_Observational_Supplemental">
+    <skos:definition xml:lang="en">The File Area Observational Supplemental class describes, for an observational product, additional files and tagged_data_objects contained within the file.</skos:definition>
+    <skos:prefLabel xml:lang="en">File Area Observational Supplemental</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="File_Area">
+        <skos:prefLabel xml:lang="en">File Area</skos:prefLabel>
+        <skos:definition xml:lang="en">The File_Area class defines a File and its component data objects.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Investigation_Area">
+    <skos:prefLabel xml:lang="en">Investigation Area</skos:prefLabel>
+    <skos:definition xml:lang="en">The Investigation_Area class provides information about an investigation (mission, observing campaign or other coordinated, large-scale data collection effort).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_2D_Spectrum">
+    <skos:definition xml:lang="en">The Array 2D Spectrum class is an extension of the Array 2D class and defines a  two dimensional spectrum.</skos:definition>
+    <skos:prefLabel xml:lang="en">Array 2D Spectrum</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Array_2D">
+        <skos:definition xml:lang="en">The Array 2D class is the parent class for all two dimensional array based classes.</skos:definition>
+        <skos:broader rdf:resource="Array"/>
+        <skos:prefLabel xml:lang="en">Array 2D</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Field_Delimited">
+    <skos:broader>
+      <skos:Concept rdf:about="Field">
+        <skos:definition xml:lang="en">The Field class defines a field of a record and is the parent class of all specific field classes.The Field class defines a field of a record or a field of a group and is the parent class of all specific field classes.</skos:definition>
+        <skos:prefLabel xml:lang="en">Field</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Field Delimited</skos:prefLabel>
+    <skos:definition xml:lang="en">The Field_Delimited class defines a field of a delimited record or a field of a delimited group.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Band_Bin_Set">
+    <skos:prefLabel xml:lang="en">Band Bin Set</skos:prefLabel>
+    <skos:definition xml:lang="en">The Band_Bin_Set class contains the spectral characteristics for all the spectral bands in a qube.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Internal_Reference">
+    <skos:prefLabel xml:lang="en">Internal Reference</skos:prefLabel>
+    <skos:definition xml:lang="en">The Internal_Reference class is used to cross-reference other products in the PDS registry system.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="PDS_Guest">
+    <skos:definition xml:lang="en">The PDS_Guest class is the default description of a person who has an association with the planetary science community and who has the most limited access to PDS resources.</skos:definition>
+    <skos:prefLabel xml:lang="en">PDS Guest</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Class_Full">
+    <skos:prefLabel xml:lang="en">DD Class Full</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD_Class_Full class provides a more complete definition of a class for a data dictionary.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_3D_Spectrum">
+    <skos:definition xml:lang="en">The Array 3D Spectrum class is an extension of the Array 3D class and defines a  three dimensional spectrum.</skos:definition>
+    <skos:prefLabel xml:lang="en">Array 3D Spectrum</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Array_3D">
+        <skos:prefLabel xml:lang="en">Array 3D</skos:prefLabel>
+        <skos:broader rdf:resource="Array"/>
+        <skos:definition xml:lang="en">The Array 3D class is the parent class for all three dimensional array based classes.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Subscription_PDS3">
+    <skos:definition xml:lang="en">The Product_Subscription_PDS3 class provides the list of subscriptions for a PDS3 subscriber.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Product">
+        <skos:prefLabel xml:lang="en">Product</skos:prefLabel>
+        <skos:definition xml:lang="en">A Product is a uniquely identified object that is managed by a registry/repository. It consists of one or more tagged data objects.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Product Subscription PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Document">
+    <skos:prefLabel xml:lang="en">Document</skos:prefLabel>
+    <skos:definition xml:lang="en">The Document class describes a document.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Packed_Data_Fields">
+    <skos:definition xml:lang="en">The Packed_Data_Fields class contains field definitions for extracting packed data from the associated byte string field.</skos:definition>
+    <skos:prefLabel xml:lang="en">Packed Data Fields</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Encoded_Header">
+    <skos:definition xml:lang="en">The Encoded Header class describes a header that has been encoded using an encoding scheme that is compliant to an external standard.</skos:definition>
+    <skos:prefLabel xml:lang="en">Encoded Header</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Encoded_Byte_Stream">
+        <skos:prefLabel xml:lang="en">Encoded Byte Stream</skos:prefLabel>
+        <skos:broader rdf:resource="Byte_Stream"/>
+        <skos:definition xml:lang="en">The Encoded Byte Stream class defines byte streams that must be decoded by software before use. These byte streams must only use standard encodings. The Encoded Byte Stream class is the parent class for all encoded byte streams.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Field_Bit">
+    <skos:prefLabel xml:lang="en">Field Bit</skos:prefLabel>
+    <skos:definition xml:lang="en">The Field_Bit class provides parameters for extracting one field out of a string of bytes which contains packed data (that is, data values either smaller than a single byte, or crossing byte boundaries, or both.</skos:definition>
+    <skos:broader rdf:resource="Field"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_AIP">
+    <skos:definition xml:lang="en">The Product AIP class defines a product for the Archival Information Package.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product AIP</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Special_Constants">
+    <skos:definition xml:lang="en">The Special Constants class provides a set of values used to indicate special cases that occur in the data.</skos:definition>
+    <skos:prefLabel xml:lang="en">Special Constants</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="XML_Schema">
+    <skos:broader>
+      <skos:Concept rdf:about="Parsable_Byte_Stream">
+        <skos:prefLabel xml:lang="en">Parsable Byte Stream</skos:prefLabel>
+        <skos:broader rdf:resource="Byte_Stream"/>
+        <skos:definition xml:lang="en">The Parsable Byte Stream class defines byte streams that have standard parsing rules. The Parsable Byte Stream class is the parent class for all parsable byte streams.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+    <skos:definition xml:lang="en">The XML Schema class defines a resource used for the PDS4 implementation into XML.</skos:definition>
+    <skos:prefLabel xml:lang="en">XML Schema</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Facility">
+    <skos:prefLabel xml:lang="en">Facility</skos:prefLabel>
+    <skos:definition xml:lang="en">The Facility class provides a name and address for a  terrestrial observatory or laboratory.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Browse">
+    <skos:definition xml:lang="en">The Product Browse class defines a product consisting of one  encoded byte stream digital object.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Browse</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="solar_longitude">
+    <skos:definition xml:lang="en">The solar_longitude attribute provides the angle between the body-Sun line at the time of interest and the body-Sun line at its vernal equinox.</skos:definition>
+    <skos:prefLabel xml:lang="en">solar longitude</skos:prefLabel>
+    <skos:broader rdf:resource="solar_longitude_WO_Units"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Target_PDS3">
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Target PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">A target product describes a target. This product captures a reduced set of the PDS3 catalog target information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Band_Bin">
+    <skos:definition xml:lang="en">The Band_Bin class specifies the characteristics of an individual spectral band in a spectral qube.</skos:definition>
+    <skos:prefLabel xml:lang="en">Band Bin</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Software_Script">
+    <skos:prefLabel xml:lang="en">Software Script</skos:prefLabel>
+    <skos:definition xml:lang="en">The Software Script class provides a description of a software code that is stored as a script.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Header">
+    <skos:broader rdf:resource="Parsable_Byte_Stream"/>
+    <skos:definition xml:lang="en">The Header class describes a data object header.</skos:definition>
+    <skos:prefLabel xml:lang="en">Header</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector_Cartesian_3_Velocity">
+    <skos:prefLabel xml:lang="en">Vector Cartesian 3 Velocity</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Vector_Cartesian_3">
+        <skos:definition xml:lang="en">The Vector_Cartesian_3_Base class is the parent class of 3 element Cartesian vectors.</skos:definition>
+        <skos:prefLabel xml:lang="en">Vector Cartesian 3</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:definition xml:lang="en">The Vector_Cartesian_3_Velocity class is a 3 element Cartesian vector for velocity coordinates.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="PDS_Affiliate">
+    <skos:definition xml:lang="en">The PDS Affiliate class provides a description of a person who has an association with the planetary science community and has access to PDS resources not normally allowed to the general public.</skos:definition>
+    <skos:prefLabel xml:lang="en">PDS Affiliate</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Alias">
+    <skos:definition xml:lang="en">The Alias class provides a single alternate name and identification for this product in this or some other archive or data system.</skos:definition>
+    <skos:prefLabel xml:lang="en">Alias</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="SIP_Deep_Archive">
+    <skos:definition xml:lang="en">The SIP Deep Archive class is a Submission Information Package (SIP)  for the NASA planetary science deep archive.</skos:definition>
+    <skos:prefLabel xml:lang="en">SIP Deep Archive</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Information_Package">
+        <skos:definition xml:lang="en">The Information Package class defines the Information Package as described in the OAIS Reference Model and is the parent class of all specific IP classes.</skos:definition>
+        <skos:prefLabel xml:lang="en">Information Package</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="maximum_record_length">
+    <skos:broader rdf:resource="maximum_record_length_WO_Units"/>
+    <skos:definition xml:lang="en">The maximum_record_length attribute provides the maximum length of a record, including the record delimiter.</skos:definition>
+    <skos:prefLabel xml:lang="en">maximum record length</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="SPICE_Kernel">
+    <skos:prefLabel xml:lang="en">SPICE Kernel</skos:prefLabel>
+    <skos:broader rdf:resource="Parsable_Byte_Stream"/>
+    <skos:definition xml:lang="en">The SPICE Kernel class describes a SPICE object.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Document_Edition">
+    <skos:definition xml:lang="en">A Document Edition is one complete version of the document in a set of files that is distinguished by language, a unique assemblage of file formats, or some other criteria.</skos:definition>
+    <skos:prefLabel xml:lang="en">Document Edition</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Document">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">A Product Document is a product consisting of a single logical document that may comprise one or more document editions.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Document</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="file_size">
+    <skos:prefLabel xml:lang="en">file size</skos:prefLabel>
+    <skos:broader rdf:resource="file_size_WO_Units"/>
+    <skos:definition xml:lang="en">The file_size attribute provides the size of the file.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="start_time">
+    <skos:broader rdf:resource="ASCII_Date_Time"/>
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">start time</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="stop_date_time">
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:broader rdf:resource="ASCII_Date_Time_YMD_UTC"/>
+    <skos:prefLabel xml:lang="en">stop date time</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="altitude">
+    <skos:broader rdf:resource="altitude_WO_Units"/>
+    <skos:definition xml:lang="en">The altitude attribute provides the height of anything above a given reference plane.</skos:definition>
+    <skos:prefLabel xml:lang="en">altitude</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Proxy_PDS3">
+    <skos:prefLabel xml:lang="en">Product Proxy PDS3</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product Proxy PDS3 class defines a product with enough information to register a PDS3 data product.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_XML_Schema">
+    <skos:definition xml:lang="en">The File Area XML Schema class describes a file that contains a resource used for the PDS4 implementation into XML.</skos:definition>
+    <skos:prefLabel xml:lang="en">File Area XML Schema</skos:prefLabel>
+    <skos:broader rdf:resource="File_Area"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Primary_Result_Summary">
+    <skos:prefLabel xml:lang="en">Primary Result Summary</skos:prefLabel>
+    <skos:definition xml:lang="en">The Primary_Result_Summary class provides a high-level description of the types of products included in the collection or bundle</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Resource">
+    <skos:prefLabel xml:lang="en">Resource</skos:prefLabel>
+    <skos:definition xml:lang="en">The Resource class provides a description of a web resource.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Identification_Area">
+    <skos:definition xml:lang="en">The identification area consists of attributes that identify and name an object.</skos:definition>
+    <skos:prefLabel xml:lang="en">Identification Area</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Observational">
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area Observational</skos:prefLabel>
+    <skos:definition xml:lang="en">The File Area Observational class describes, for an observational product, a file and one or more tagged_data_objects contained within the file.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="center_wavelength">
+    <skos:broader rdf:resource="center_wavelength_WO_Units"/>
+    <skos:definition xml:lang="en">The center_wavelength attribute provides the wavelength or frequency describing the center of a bin along the band axis of a spectral qube. When describing data from a spectrometer, the value corresponds to the peak of the response function for a particular detector and/or grating position.</skos:definition>
+    <skos:prefLabel xml:lang="en">center wavelength</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Axis_Array">
+    <skos:prefLabel xml:lang="en">Axis Array</skos:prefLabel>
+    <skos:definition xml:lang="en">The Axis Array class is used as a component of the array class and defines an axis of the array.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Agency">
+    <skos:prefLabel xml:lang="en">Agency</skos:prefLabel>
+    <skos:definition xml:lang="en">The Agency class provides a description of an entity that provides regional or national level governance over nodes within the federated Planetary Data System.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="object_length">
+    <skos:definition xml:lang="en">The object_length attribute provides the length of the digital object in bytes.</skos:definition>
+    <skos:prefLabel xml:lang="en">object length</skos:prefLabel>
+    <skos:broader rdf:resource="object_length_WO_Units"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Target_PDS3">
+    <skos:prefLabel xml:lang="en">Target PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">The Target class provides a description of a phyiscal object that is the object of data collection. This class captures the PDS3 catalog Target information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="reference_frame_id">
+    <skos:broader rdf:resource="ASCII_Short_String_Collapsed"/>
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">reference frame id</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_SPICE_Kernel">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product SPICE Kernel class defines a SPICE kernel product.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product SPICE Kernel</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Field_Character">
+    <skos:broader rdf:resource="Field"/>
+    <skos:prefLabel xml:lang="en">Field Character</skos:prefLabel>
+    <skos:definition xml:lang="en">The Field_Character class defines a field of a character record or a field of a character group.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Instrument_Host_PDS3">
+    <skos:definition xml:lang="en">An Instrument Host product describes an instrument host. This product captures the PDS3 catalog instrument host information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Instrument Host PDS3</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_3D_Movie">
+    <skos:prefLabel xml:lang="en">Array 3D Movie</skos:prefLabel>
+    <skos:definition xml:lang="en">The Array 3D  Movie class is an extension of the Array 3D class and defines a  movie as a set of two dimensional images in a time series.</skos:definition>
+    <skos:broader rdf:resource="Array_3D"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Modification_History">
+    <skos:definition xml:lang="en">The Modification_History class tracks the history of changes made to the product once it enters the registry system.</skos:definition>
+    <skos:prefLabel xml:lang="en">Modification History</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_DIP">
+    <skos:prefLabel xml:lang="en">Product DIP</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product DIP class defines a product for the Dissemination Information Package.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_SIP_Deep_Archive">
+    <skos:prefLabel xml:lang="en">File Area SIP Deep Archive</skos:prefLabel>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:definition xml:lang="en">The File Area SIP Deep Archive class describes the File Area for the Submission Information Package (SIP) for the NASA planetary science deep archive.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Checksum_Manifest">
+    <skos:broader>
+      <skos:Concept rdf:about="Stream_Text">
+        <skos:definition xml:lang="en">The Stream text class defines a text object.</skos:definition>
+        <skos:broader rdf:resource="Parsable_Byte_Stream"/>
+        <skos:prefLabel xml:lang="en">Stream Text</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:definition xml:lang="en">The Checksum_Manifest class defines a two column table for file references and checksums.</skos:definition>
+    <skos:prefLabel xml:lang="en">Checksum Manifest</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Service">
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Service</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product Service class defines a product for registering services. Service descriptions from this product are used to register services as intrinsic registry objects.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Permissible_Value_Full">
+    <skos:definition xml:lang="en">The DD_Permissible_Value_Full class lists permissible values, their meanings, and the dates when active.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Permissible Value Full</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Bundle">
+    <skos:prefLabel xml:lang="en">Product Bundle</skos:prefLabel>
+    <skos:definition xml:lang="en">A Product_Bundle is an aggregate product and has a table of references to one or more collections.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Information_Package_Component_Deep_Archive">
+    <skos:definition xml:lang="en">The Information Package Component Deep Archive class is an Information Package Component for the NASA planetary science deep archive.</skos:definition>
+    <skos:prefLabel xml:lang="en">Information Package Component Deep Archive</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="stop_date">
+    <skos:broader rdf:resource="ASCII_Date_YMD"/>
+    <skos:prefLabel xml:lang="en">stop date</skos:prefLabel>
+    <skos:definition xml:lang="en"></skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Table_Binary">
+    <skos:prefLabel xml:lang="en">Table Binary</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Table_Base">
+        <skos:prefLabel xml:lang="en">Table Base</skos:prefLabel>
+        <skos:definition xml:lang="en">The Table Base class defines a heterogeneous repeating record of scalars. The Table Base class is the parent class for all heterogeneous repeating record of scalars.</skos:definition>
+        <skos:broader rdf:resource="Byte_Stream"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:definition xml:lang="en">The Table Binary class is an extension of table base and defines a simple binary table.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Instrument_Host_PDS3">
+    <skos:definition xml:lang="en">The Instrument Host class provides a description of the phyiscal object upon which an instrument is mounted. This class captures the PDS3 catalog Instrument Host information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Instrument Host PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Permissible_Value">
+    <skos:definition xml:lang="en">The DD_Permissible_Value class lists permissible values and their meanings.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Permissible Value</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Discipline_Area">
+    <skos:definition xml:lang="en">The Discipline area allows the insertion of discipline specific metadata.</skos:definition>
+    <skos:prefLabel xml:lang="en">Discipline Area</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Value_Domain">
+    <skos:definition xml:lang="en">The DD_Value_Domain class defines an attribute's permissible values and their constraints.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Value Domain</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Reference_List">
+    <skos:definition xml:lang="en">The Reference_List class provides lists general references and cross-references for the product.  References cited elsewhere in the label need not be repeated here.</skos:definition>
+    <skos:prefLabel xml:lang="en">Reference List</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_XML_Schema">
+    <skos:definition xml:lang="en">The Product_XML_Schema  describes a resource used for the PDS4 implementation into XML.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product XML Schema</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Ingest_LDD">
+    <skos:definition xml:lang="en">The Ingest_LDD class provides a form for collecting class and attribute definitions.</skos:definition>
+    <skos:prefLabel xml:lang="en">Ingest LDD</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="record_length">
+    <skos:definition xml:lang="en">The record_length attribute provides the length of a record, including a record delimiter, if present.</skos:definition>
+    <skos:prefLabel xml:lang="en">record length</skos:prefLabel>
+    <skos:broader rdf:resource="record_length_WO_Units"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="telescope_longitude">
+    <skos:prefLabel xml:lang="en">telescope longitude</skos:prefLabel>
+    <skos:broader rdf:resource="telescope_longitude_WO_Units"/>
+    <skos:definition xml:lang="en">The longitude attribute provides the angular distance east or west on the object's surface, measured by the angle contained between the meridian of a particular place and some prime meridian.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_SIP_Deep_Archive">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product SIP Deep Archive class defines a Submission Information Package (SIP) for the NASA planetary science deep archive.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product SIP Deep Archive</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="publication_date">
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">publication date</skos:prefLabel>
+    <skos:broader rdf:resource="ASCII_Date_YMD"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector_Cartesian_3_Pointing">
+    <skos:prefLabel xml:lang="en">Vector Cartesian 3 Pointing</skos:prefLabel>
+    <skos:definition xml:lang="en">The Vector_Cartesian_3_Pointing class is a 3 element normalized Cartesian vector for pointing.</skos:definition>
+    <skos:broader rdf:resource="Vector_Cartesian_3"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Information_Package_Component">
+    <skos:definition xml:lang="en">The Information_Package_Component class associates a Bundle, Collections or Basic Products with Checksum and Storage Manifests.</skos:definition>
+    <skos:prefLabel xml:lang="en">Information Package Component</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Inventory">
+    <skos:prefLabel xml:lang="en">File Area Inventory</skos:prefLabel>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:definition xml:lang="en">The File Area Inventory class describes a file and an inventory consisting of references to  members.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Target">
+    <skos:definition xml:lang="en">The Target class provides a description of a physical object that is the object of data collection.</skos:definition>
+    <skos:prefLabel xml:lang="en">Target</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Subscriber_PDS3">
+    <skos:prefLabel xml:lang="en">Subscriber PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">The Subscriber PDS3 class provides the name of the subscriber and their subscription list.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Value_Domain_Full">
+    <skos:definition xml:lang="en">The DD_Value_Domain_Full class provides a more complete definition of a attribute's value domain.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Value Domain Full</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Investigation">
+    <skos:prefLabel xml:lang="en">Investigation</skos:prefLabel>
+    <skos:definition xml:lang="en">The Investigation class provides a description of activities involved in the collection of data.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="aperture">
+    <skos:prefLabel xml:lang="en">aperture</skos:prefLabel>
+    <skos:broader rdf:resource="aperture_WO_Units"/>
+    <skos:definition xml:lang="en">The aperture attribute provides the diameter of an opening, usually circular, that limits the quantity of light that can enter an optical instrument.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_2D_Image">
+    <skos:prefLabel xml:lang="en">Array 2D Image</skos:prefLabel>
+    <skos:broader rdf:resource="Array_2D"/>
+    <skos:definition xml:lang="en">The Array 2D Image class is an extension of the Array 2D class and defines a two dimensional image.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Alias_List">
+    <skos:prefLabel xml:lang="en">Alias List</skos:prefLabel>
+    <skos:definition xml:lang="en">The Alias_List class provides a list of paired alternate names and identifications for this product in this or some other archive or data system.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Collection">
+    <skos:definition xml:lang="en">The Collection class provides a description of a set of products.</skos:definition>
+    <skos:prefLabel xml:lang="en">Collection</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Association">
+    <skos:prefLabel xml:lang="en">DD Association</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD_Association class defines the association between two classes or a class and an attribute in a data dictionary.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Browse">
+    <skos:definition xml:lang="en">The File Area Browse class describes a file and one or more tagged_data_objects contained within the file.</skos:definition>
+    <skos:prefLabel xml:lang="en">File Area Browse</skos:prefLabel>
+    <skos:broader rdf:resource="File_Area"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Encoded_Native">
+    <skos:broader rdf:resource="Encoded_Byte_Stream"/>
+    <skos:definition xml:lang="en">The Encoded Native class describes a binary encoded byte stream. This class is used to describe data objects for Product_Native.</skos:definition>
+    <skos:prefLabel xml:lang="en">Encoded Native</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Observation_Area">
+    <skos:definition xml:lang="en">The observation area consists of attributes that provide information about the circumstances under which the data were collected.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Context_Area">
+        <skos:prefLabel xml:lang="en">Context Area</skos:prefLabel>
+        <skos:definition xml:lang="en">The Context Area provides context information for a product.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Observation Area</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector_Cartesian_3_Position">
+    <skos:prefLabel xml:lang="en">Vector Cartesian 3 Position</skos:prefLabel>
+    <skos:broader rdf:resource="Vector_Cartesian_3"/>
+    <skos:definition xml:lang="en">The Vector_Cartesian_3_Position class is a 3 element Cartesian vector for position coordinates.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Service_Description">
+    <skos:definition xml:lang="en">The Service Description class defines a file that contains a standardized service specification.</skos:definition>
+    <skos:prefLabel xml:lang="en">Service Description</skos:prefLabel>
+    <skos:broader rdf:resource="Parsable_Byte_Stream"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Telescope">
+    <skos:prefLabel xml:lang="en">Telescope</skos:prefLabel>
+    <skos:definition xml:lang="en">The Telescope class provides coordinates and parameters for terrestrial, ground-based telescopes.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Encoded_Binary">
+    <skos:definition xml:lang="en">The Encoded Binary class describes a binary encoded byte stream. This class is used to describe files in the repository that are being registered using  Product_File_Repository.</skos:definition>
+    <skos:broader rdf:resource="Encoded_Byte_Stream"/>
+    <skos:prefLabel xml:lang="en">Encoded Binary</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Class_Definition">
+    <skos:definition xml:lang="en">The Product Class Definition provides a class definition in XML encoding.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Class Definition</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Geometry">
+    <skos:definition xml:lang="en">The Geometry class groups geometry information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Geometry</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_1D">
+    <skos:prefLabel xml:lang="en">Array 1D</skos:prefLabel>
+    <skos:definition xml:lang="en">The Array 1D class is the parent class for all one dimensional array based classes.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Array">
+        <skos:broader rdf:resource="Byte_Stream"/>
+        <skos:prefLabel xml:lang="en">Array</skos:prefLabel>
+        <skos:definition xml:lang="en">The Array class defines a homogeneous N-dimensional array of scalars. The Array class is the parent class for all n-dimensional arrays of scalars.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Instrument_PDS3">
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Instrument PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">An Instrument product describes an instrument. This product captures the PDS3 catalog instrument information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Rule">
+    <skos:definition xml:lang="en">The DD_Rule class defines a Schematron rule for a data dictionary.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Rule</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Group_Field_Character">
+    <skos:definition xml:lang="en">The Group_Field_Character class allows a group of table fields.</skos:definition>
+    <skos:prefLabel xml:lang="en">Group Field Character</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="Group">
+        <skos:definition xml:lang="en">The Group class defines a group of (repeating) fields and, possibly, (sub) groups; it is the parent class of all specific group classes.</skos:definition>
+        <skos:prefLabel xml:lang="en">Group</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Mission_PDS3">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">An Mission product describes a mission. This product captures the PDS3 catalog mission information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Mission PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="field_location">
+    <skos:prefLabel xml:lang="en">field location</skos:prefLabel>
+    <skos:broader rdf:resource="field_location_WO_Units"/>
+    <skos:definition xml:lang="en">The field_location attribute provides the starting byte for a field within a record or group, counting from '1'.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Encoded_Image">
+    <skos:definition xml:lang="en">The Encoded Image class is used for ancillary images in standard formats, such as JPEG.</skos:definition>
+    <skos:broader rdf:resource="Encoded_Byte_Stream"/>
+    <skos:prefLabel xml:lang="en">Encoded Image</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Instrument_PDS3">
+    <skos:prefLabel xml:lang="en">Instrument PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">The Instrument class provides a description of a phyiscal object that collects data. This class captures the PDS3 catalog Instrument information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Instrument">
+    <skos:definition xml:lang="en">The Instrument class provides a description of a physical object that collects data.</skos:definition>
+    <skos:prefLabel xml:lang="en">Instrument</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Observational">
+    <skos:definition xml:lang="en">A Product_Observational is a set of one or more information objects produced by an observing system.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Observational</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Record_Character">
+    <skos:definition xml:lang="en">The Record_Character class is a component of the table class and defines a record of the table.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Record">
+        <skos:prefLabel xml:lang="en">Record</skos:prefLabel>
+        <skos:definition xml:lang="en">The Record class defines a record of a file and is the parent class of all specific record classes.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Record Character</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Citation_Information">
+    <skos:prefLabel xml:lang="en">Citation Information</skos:prefLabel>
+    <skos:definition xml:lang="en">The Citation_Information class provides specific fields often used in citing the product in journal articles, abstract services, and other reference contexts.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Property_Map">
+    <skos:prefLabel xml:lang="en">Property Map</skos:prefLabel>
+    <skos:definition xml:lang="en">The Property Map class defines a table consisting of a set of data elements and their values. The data elements in this table are considered to be locally defined and not subject to standards except for nomenclature rules.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Class">
+    <skos:prefLabel xml:lang="en">DD Class</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD_Class class defines a class for a data dictionary.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Volume_PDS3">
+    <skos:definition xml:lang="en">The Volume_PDS3 class is used to capture the volume information from the PDS3 Data Set Catalog.</skos:definition>
+    <skos:prefLabel xml:lang="en">Volume PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="group_length">
+    <skos:broader rdf:resource="group_length_WO_Units"/>
+    <skos:prefLabel xml:lang="en">group length</skos:prefLabel>
+    <skos:definition xml:lang="en">The group_length attribute provides the total length, in bytes, of a repeating field and/or group structure. It is the number of bytes in the repeating fields/groups plus any embedded unused bytes that are also repeated multiplied by the number of repetitions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Display_2D_Image">
+    <skos:definition xml:lang="en">The Display_2D_Image class provides attributes to enable the display of a 2 dimensional image.</skos:definition>
+    <skos:prefLabel xml:lang="en">Display 2D Image</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_SIP">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product SIP class defines a product for the Submission Information Package.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product SIP</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Text">
+    <skos:definition xml:lang="en">The File Area Text class describes a file that contains a text stream object.</skos:definition>
+    <skos:prefLabel xml:lang="en">File Area Text</skos:prefLabel>
+    <skos:broader rdf:resource="File_Area"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Property_Map_Entry">
+    <skos:prefLabel xml:lang="en">Property Map Entry</skos:prefLabel>
+    <skos:definition xml:lang="en">The property map entry consists of a property name and one or more values.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Record_Binary">
+    <skos:broader rdf:resource="Record"/>
+    <skos:prefLabel xml:lang="en">Record Binary</skos:prefLabel>
+    <skos:definition xml:lang="en">The Record_Binary class is a component of the table class and defines a record of the table.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Submission_Information_Package">
+    <skos:prefLabel xml:lang="en">Submission Information Package</skos:prefLabel>
+    <skos:definition xml:lang="en">The Submission Information Package (SIP) class is an Information Package that is delivered by a Data Provider to an archive that conforms to the Open Archive Information System (OAIS) Reference Model for use in the construction of one or more AIPs.</skos:definition>
+    <skos:broader rdf:resource="Information_Package"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Zipped">
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Zipped</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product_Zipped  is a product with references to other products. The referenced products and all associated products and files are packaged into a single ZIP file.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Field_Binary">
+    <skos:broader rdf:resource="Field"/>
+    <skos:prefLabel xml:lang="en">Field Binary</skos:prefLabel>
+    <skos:definition xml:lang="en">The Field_Binary class defines a field of a binary record or a field of a binary group.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Group_Field_Delimited">
+    <skos:prefLabel xml:lang="en">Group Field Delimited</skos:prefLabel>
+    <skos:broader rdf:resource="Group"/>
+    <skos:definition xml:lang="en">The Field_Group_Delimited class allows a group of delimited fields.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Binary">
+    <skos:definition xml:lang="en">The File Area Binary class describes a file that contains an encoded byte stream.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area Binary</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Update">
+    <skos:prefLabel xml:lang="en">Product Update</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product Update class defines a product consisting of update information and optional references to other products.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Thumbnail">
+    <skos:definition xml:lang="en">The Product Thumbnail class defines a product consisting of one encoded byte stream digital object.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Thumbnail</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Service_Description">
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area Service Description</skos:prefLabel>
+    <skos:definition xml:lang="en">The File Area Service Description class describes a file that contains a service description.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Class_Reference">
+    <skos:prefLabel xml:lang="en">DD Class Reference</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD Class Reference class provides a reference to a class using a namespace identifier and the class name.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Native">
+    <skos:prefLabel xml:lang="en">Product Native</skos:prefLabel>
+    <skos:definition xml:lang="en">Product_Native is used to describe digital objects in the original format returned by the spacecraft or experimental system when that format  cannot be described using one of the PDS4 formats specified for observational data (tables or arrays,  excluding Array_1D).</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_SPICE_Kernel">
+    <skos:definition xml:lang="en">The File Area SPICE Kernel class describes a file that contains a SPICE Kernel object.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area SPICE Kernel</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Inventory">
+    <skos:prefLabel xml:lang="en">Inventory</skos:prefLabel>
+    <skos:definition xml:lang="en">The Inventory class defines the inventory for members of a collection.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Table_Delimited">
+        <skos:definition xml:lang="en">The Table_Delimited class defines a simple table (spreadsheet) with delimited fields and records.</skos:definition>
+        <skos:prefLabel xml:lang="en">Table Delimited</skos:prefLabel>
+        <skos:broader rdf:resource="Parsable_Byte_Stream"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_DIP_Deep_Archive">
+    <skos:prefLabel xml:lang="en">Product DIP Deep Archive</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product DIP_Deep_Archive class defines a product for the Dissemination Information Package for the deep archive.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Attribute_Reference">
+    <skos:prefLabel xml:lang="en">DD Attribute Reference</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD Attribute Reference class provides a reference to an attribute using a namespace identifier and the attribute name.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="NSSDC">
+    <skos:prefLabel xml:lang="en">NSSDC</skos:prefLabel>
+    <skos:definition xml:lang="en">The NSSDC Information class provides identification information for data submitted to the NSSDC.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_File_Text">
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product File Text</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product File Text consists of a single text file with ASCII character encoding.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="External_Reference_Extended">
+    <skos:broader>
+      <skos:Concept rdf:about="External_Reference">
+        <skos:definition xml:lang="en">The External_Reference class is used to reference a source outside the PDS registry system.</skos:definition>
+        <skos:prefLabel xml:lang="en">External Reference</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">External Reference Extended</skos:prefLabel>
+    <skos:definition xml:lang="en">The External_Reference_Extended class is used to reference a source outside the PDS registry system. This extension is used in the local data dictionary.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="offset">
+    <skos:prefLabel xml:lang="en">offset</skos:prefLabel>
+    <skos:broader rdf:resource="offset_WO_Units"/>
+    <skos:definition xml:lang="en">The offset attribute provides the displacement of the object starting position from the beginning of the parent structure (file, record, etc.).  If there is no displacement, offset=0.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Uniformly_Sampled">
+    <skos:definition xml:lang="en">The Uniformly_Sampled class provides parameters for a uniformly sampled table.</skos:definition>
+    <skos:prefLabel xml:lang="en">Uniformly Sampled</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Other">
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="en">The Other class provides a description of activities involved in the collection of data which are not otherwise modeled.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="start_date_time">
+    <skos:prefLabel xml:lang="en">start date time</skos:prefLabel>
+    <skos:broader rdf:resource="ASCII_Date_Time_YMD_UTC"/>
+    <skos:definition xml:lang="en"></skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Software_Binary">
+    <skos:prefLabel xml:lang="en">Software Binary</skos:prefLabel>
+    <skos:definition xml:lang="en">The Software Script class provides a description of a software code that is stored as a compiled binary file.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="field_length">
+    <skos:prefLabel xml:lang="en">field length</skos:prefLabel>
+    <skos:broader rdf:resource="field_length_WO_Units"/>
+    <skos:definition xml:lang="en">The field_length attribute provides the number of bytes in the field.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Field_Statistics">
+    <skos:prefLabel xml:lang="en">Field Statistics</skos:prefLabel>
+    <skos:definition xml:lang="en">The Field Statistics class provides a set of metrics for a column formed by a field in a repeating record.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Dissemination_Information_Package">
+    <skos:definition xml:lang="en">The Dissemination Information Package (DIP) class defines an Information Package, derived from one or more AIPs, that is received by a consumer.</skos:definition>
+    <skos:prefLabel xml:lang="en">Dissemination Information Package</skos:prefLabel>
+    <skos:broader rdf:resource="Information_Package"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Target_Identification">
+    <skos:definition xml:lang="en">The Target_Identification class provides detailed target identification information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Target Identification</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Encoded_Image">
+    <skos:prefLabel xml:lang="en">File Area Encoded Image</skos:prefLabel>
+    <skos:definition xml:lang="en">The File Area Encoded Image class describes a file that contains an Encoded Image object.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Document_File">
+    <skos:definition xml:lang="en">The Document File class describes a file which is a part of a document.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="File">
+        <skos:prefLabel xml:lang="en">File</skos:prefLabel>
+        <skos:definition xml:lang="en">The File class consists of attributes that describe a file in a data store.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Document File</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Collection">
+    <skos:definition xml:lang="en">A Product_Collection has a table of references to one or more basic products. The references are stored in a table called the inventory.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Collection</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DIP_Deep_Archive">
+    <skos:definition xml:lang="en">The Dissemination Information Package Deep Archive class is an Information Package derived from one or more AIPs and is received by the National Space Science Data Center (NSSDC).</skos:definition>
+    <skos:prefLabel xml:lang="en">DIP Deep Archive</skos:prefLabel>
+    <skos:broader rdf:resource="Information_Package"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Instrument_Host">
+    <skos:definition xml:lang="en">The Instrument Host class provides a description of the physical object upon which an instrument is mounted.</skos:definition>
+    <skos:prefLabel xml:lang="en">Instrument Host</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Property_Maps">
+    <skos:prefLabel xml:lang="en">Property Maps</skos:prefLabel>
+    <skos:definition xml:lang="en">The Property Maps class defines a collection of one or more related Property Maps.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Software_Source">
+    <skos:definition xml:lang="en">The Software Script class provides a description of a software code that is stored as source code.</skos:definition>
+    <skos:prefLabel xml:lang="en">Software Source</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Attribute_Full">
+    <skos:definition xml:lang="en">The DD_Attribute_Full class provides a more complete definition of an attribute in the data dictionary.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Attribute Full</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Transfer_Manifest">
+    <skos:prefLabel xml:lang="en">File Area Transfer Manifest</skos:prefLabel>
+    <skos:definition xml:lang="en">The File Area Transfer Manifest class describes a file that contains a two column table that maps the logical identifiers and version ids of products to their file specification names.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector">
+    <skos:definition xml:lang="en">The Vector class provides the components of either a velocity or position vector.</skos:definition>
+    <skos:prefLabel xml:lang="en">Vector</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector_Cartesian_3_Acceleration">
+    <skos:definition xml:lang="en">The Vector_Cartesian_3_Acceleration class is a 3 element Cartesian vector for acceleration coordinates.</skos:definition>
+    <skos:prefLabel xml:lang="en">Vector Cartesian 3 Acceleration</skos:prefLabel>
+    <skos:broader rdf:resource="Vector_Cartesian_3"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Mission_Area">
+    <skos:definition xml:lang="en">The mission area allows the insertion of mission specific metadata.</skos:definition>
+    <skos:prefLabel xml:lang="en">Mission Area</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Context">
+    <skos:prefLabel xml:lang="en">Product Context</skos:prefLabel>
+    <skos:definition xml:lang="en">The Product Context class describes something that provides context and provenance for an observational product.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Manifest_SIP_Deep_Archive">
+    <skos:broader rdf:resource="Table_Delimited"/>
+    <skos:prefLabel xml:lang="en">Manifest SIP Deep Archive</skos:prefLabel>
+    <skos:definition xml:lang="en">The Manifest SIP Deep Archive class is a Table Delimited for the NASA planetary science deep archive's Submission Information Package (SIP).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Group_Field_Binary">
+    <skos:prefLabel xml:lang="en">Group Field Binary</skos:prefLabel>
+    <skos:definition xml:lang="en">The Group_Field_Binary class allows a group of table fields.</skos:definition>
+    <skos:broader rdf:resource="Group"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Association_External">
+    <skos:prefLabel xml:lang="en">DD Association External</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD_Association_External class defines the association between classes and attributes within the local data dictionary and those external to the local data dictionary.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Attribute_Definition">
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">The Product Attribute Definition provides an attribute definition in XML encoding.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Attribute Definition</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Mission_PDS3">
+    <skos:definition xml:lang="en">The Mission PDS3 class describes an activity involved in the collection of data. This class captures the PDS3 catalog Mission information.</skos:definition>
+    <skos:prefLabel xml:lang="en">Mission PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Modification_Detail">
+    <skos:prefLabel xml:lang="en">Modification Detail</skos:prefLabel>
+    <skos:definition xml:lang="en">The Modification_Detail class provides the details of one round of modification for the product.  The first, required, instance of this class documents the date the product was first registered.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Volume_Set_PDS3">
+    <skos:definition xml:lang="en">A Product Volume Set PDS3 product captures the PDS3 volume set information.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+    <skos:prefLabel xml:lang="en">Product Volume Set PDS3</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Update">
+    <skos:prefLabel xml:lang="en">Update</skos:prefLabel>
+    <skos:definition xml:lang="en">The Update class consists of update information.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Quaternion_Component">
+    <skos:definition xml:lang="en">The Quaternion_Component class provides a component of a quaternion.</skos:definition>
+    <skos:prefLabel xml:lang="en">Quaternion Component</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="stop_time">
+    <skos:definition xml:lang="en"></skos:definition>
+    <skos:prefLabel xml:lang="en">stop time</skos:prefLabel>
+    <skos:broader rdf:resource="ASCII_Date_Time"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Time_Coordinates">
+    <skos:definition xml:lang="en">The Time_Coordinates class provides a list of time coordinates.</skos:definition>
+    <skos:prefLabel xml:lang="en">Time Coordinates</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Checksum_Manifest">
+    <skos:definition xml:lang="en">The File Area Checksum Manifest class describes a file that contains a two column table for file references and checksums.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area Checksum Manifest</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Archival_Information_Package">
+    <skos:broader rdf:resource="Information_Package"/>
+    <skos:prefLabel xml:lang="en">Archival Information Package</skos:prefLabel>
+    <skos:definition xml:lang="en">The Archival Information Package (AIP) class defines an Information Package consisting of the Content Information and the associated Preservation Description Information (PDI), which is preserved within an archive that conforms to the Open Archive Information System (OAIS) Reference Model.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="telescope_latitude">
+    <skos:prefLabel xml:lang="en">telescope latitude</skos:prefLabel>
+    <skos:definition xml:lang="en">The latitude attribute provides the angular distance north or south from the equator of a point on the object's surface, measured on the meridian of the point.</skos:definition>
+    <skos:broader rdf:resource="telescope_latitude_WO_Units"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Data_Set_PDS3">
+    <skos:prefLabel xml:lang="en">Data Set PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">The Data Set PDS3 class is used to capture the data set information from the PDS3 Data Set Catalog.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Object_Statistics">
+    <skos:definition xml:lang="en">The Object Statistics class provides a set of values that provide metrics about the object.</skos:definition>
+    <skos:prefLabel xml:lang="en">Object Statistics</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Bundle">
+    <skos:prefLabel xml:lang="en">Bundle</skos:prefLabel>
+    <skos:definition xml:lang="en">The Bundle class describes a collection of collections.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Attribute">
+    <skos:definition xml:lang="en">The DD_Attribute class defines an attribute for a data dictionary.</skos:definition>
+    <skos:prefLabel xml:lang="en">DD Attribute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Record_Delimited">
+    <skos:broader rdf:resource="Record"/>
+    <skos:prefLabel xml:lang="en">Record Delimited</skos:prefLabel>
+    <skos:definition xml:lang="en">The Record_Delimited class is a component of the delimited table (spreadsheet) class and defines a record of the delimited table.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_File_Repository">
+    <skos:definition xml:lang="en">The Product File Repository class consists of a single text file. This product is used to register a file in a repository.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product File Repository</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Bundle_Member_Entry">
+    <skos:prefLabel xml:lang="en">Bundle Member Entry</skos:prefLabel>
+    <skos:definition xml:lang="en">The Bundle Member Entry class provides a member reference to a collection.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Local_Internal_Reference">
+    <skos:definition xml:lang="en">The Local Internal_Reference class is used to cross-reference other Description Objects in a PDS4 label.</skos:definition>
+    <skos:prefLabel xml:lang="en">Local Internal Reference</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Software">
+    <skos:definition xml:lang="en">The Software class describes a software product</skos:definition>
+    <skos:prefLabel xml:lang="en">Software</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Node">
+    <skos:definition xml:lang="en">The Node class provides a description of an entity that provides local governance within the federated Planetary Data System.</skos:definition>
+    <skos:prefLabel xml:lang="en">Node</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Transfer_Manifest">
+    <skos:prefLabel xml:lang="en">Transfer Manifest</skos:prefLabel>
+    <skos:definition xml:lang="en">The Transfer_Manifest class defines a table that maps product LIDVIDs to the file_specificaition_names of the products' XML label files.</skos:definition>
+    <skos:broader>
+      <skos:Concept rdf:about="Table_Character">
+        <skos:prefLabel xml:lang="en">Table Character</skos:prefLabel>
+        <skos:broader rdf:resource="Table_Base"/>
+        <skos:definition xml:lang="en">The Table Character class is an extension of table base and defines a simple character table.</skos:definition>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Software">
+    <skos:prefLabel xml:lang="en">Product Software</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+    <skos:definition xml:lang="en">Product Software is a product consisting of a set of one or more software formats.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Volume_PDS3">
+    <skos:prefLabel xml:lang="en">Product Volume PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">A Product Volume PDS3 product captures the PDS3 volume information.</skos:definition>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Element_Array">
+    <skos:definition xml:lang="en">The Element Array class is used as a component of the array class and defines an element of the array.</skos:definition>
+    <skos:prefLabel xml:lang="en">Element Array</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="band_width">
+    <skos:broader rdf:resource="band_width_WO_Units"/>
+    <skos:definition xml:lang="en">The band_width attributes provides the width, at half height, of the band.</skos:definition>
+    <skos:prefLabel xml:lang="en">band width</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Volume_Set_PDS3">
+    <skos:prefLabel xml:lang="en">Volume Set PDS3</skos:prefLabel>
+    <skos:definition xml:lang="en">The Volume_Set_PDS3 class is used to capture the volume set information from the PDS3 Data Set Catalog.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Quaternion">
+    <skos:prefLabel xml:lang="en">Quaternion</skos:prefLabel>
+    <skos:definition xml:lang="en">The Quaternion class models a mathematical construct that consists of four individual numeric components.  Quaternions are a convenient mechanism for encapsulating orientation information since they require only four units of numeric storage, as opposed to the nine needed for a rotation matrix.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="maximum_field_length">
+    <skos:definition xml:lang="en">The maximum_field_length attribute sets an upper, inclusive bound on the number of bytes in the field.</skos:definition>
+    <skos:broader rdf:resource="maximum_field_length_WO_Units"/>
+    <skos:prefLabel xml:lang="en">maximum field length</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Vector_Component">
+    <skos:prefLabel xml:lang="en">Vector Component</skos:prefLabel>
+    <skos:definition xml:lang="en">The Vector_Component class provides a component of a vector.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Update_Entry">
+    <skos:prefLabel xml:lang="en">Update Entry</skos:prefLabel>
+    <skos:definition xml:lang="en">The Update Entry class provides the date and description of an update.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_2D_Map">
+    <skos:prefLabel xml:lang="en">Array 2D Map</skos:prefLabel>
+    <skos:definition xml:lang="en">The Array 2D Map class is an extension of the Array 2D class and defines a  two dimensional map.</skos:definition>
+    <skos:broader rdf:resource="Array_2D"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="DD_Rule_Statement">
+    <skos:prefLabel xml:lang="en">DD Rule Statement</skos:prefLabel>
+    <skos:definition xml:lang="en">The DD_Rule_Statement class defines a Schematron rule statement.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Product_Data_Set_PDS3">
+    <skos:definition xml:lang="en">The Data Set PDS3 product  is used to create proxy labels for the data sets in the PDS3 Data Set catalog.</skos:definition>
+    <skos:prefLabel xml:lang="en">Product Data Set PDS3</skos:prefLabel>
+    <skos:broader rdf:resource="Product"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Observing_System">
+    <skos:prefLabel xml:lang="en">Observing System</skos:prefLabel>
+    <skos:definition xml:lang="en">The Observing System class describes the entire suite used to collect the data.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="group_location">
+    <skos:prefLabel xml:lang="en">group location</skos:prefLabel>
+    <skos:broader rdf:resource="group_location_WO_Units"/>
+    <skos:definition xml:lang="en">The group_location attribute provides the starting position for a Group_Field_Binary within the containing Record_Binary or Group_Field_Binary class, in bytes. Location '1' denotes the first byte of the containing class.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="Array_3D_Image">
+    <skos:prefLabel xml:lang="en">Array 3D Image</skos:prefLabel>
+    <skos:definition xml:lang="en">The Array 3D Image class is an extension of the Array 3D class and defines a  three dimensional image.</skos:definition>
+    <skos:broader rdf:resource="Array_3D"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="Science_Facets">
+    <skos:definition xml:lang="en">The Science_Facets class contains the science-related search facets.  It is optional and may be repeated if an product has facets related to, for example, two different disciplines (as defined by the discipline_name facet). Note that Science_Facets was modeled with Discipline_Facets as a component and Discipline_Facets was modeled with Group_Facet1 and Group_Facet2 as components. This dependency hierarchy was flattened and only Science_Facets exists in the schema.</skos:definition>
+    <skos:prefLabel xml:lang="en">Science Facets</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Observing_System_Component">
+    <skos:definition xml:lang="en">The Observing System Component class references one or more subsystems used to collect data. A subsystem can be an instrument_host, instrument, or any other similar product. Each subsystem is categorized as either a sensor or a source. If the observing system includes both a sensor and a source, Observing System Component occurs twice (once for each type) otherwise it only occurs once.</skos:definition>
+    <skos:prefLabel xml:lang="en">Observing System Component</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Terminological_Entry">
+    <skos:definition xml:lang="en">The terminological_entry class provides the name (designation) and definition of the attribute in a specified natural language.</skos:definition>
+    <skos:prefLabel xml:lang="en">Terminological Entry</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Zip">
+    <skos:prefLabel xml:lang="en">Zip</skos:prefLabel>
+    <skos:definition xml:lang="en">The Zip class describes a zip file.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="File_Area_Native">
+    <skos:definition xml:lang="en">The File Area Native describes tagged_data_objects collected from an instrument.</skos:definition>
+    <skos:broader rdf:resource="File_Area"/>
+    <skos:prefLabel xml:lang="en">File Area Native</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="Byte_Stream">
+    <skos:definition xml:lang="en">The Byte Stream class defines a stream of bytes.</skos:definition>
+    <skos:prefLabel xml:lang="en">Byte Stream</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
