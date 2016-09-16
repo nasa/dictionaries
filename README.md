@@ -9,13 +9,13 @@ use this code. My preferred one (described below) is using
 
 ```bash
 # clone this repository to your local machine
-git clone https://github.com/nasa/concept-tagging.git
+git clone https://github.com/nasa/dictionaries.git
 
 # switch to the local repository dir
-cd concept-tagging
+cd dictionaries
 
 # install virtualenv environment for python3
-virtualenv -p <python_3_exe> ./lib
+virtualenv -p <python_3_exe> ./env
 
 # activate your environment
 source lib/bin/activate.sh
