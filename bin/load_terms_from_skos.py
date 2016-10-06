@@ -23,7 +23,7 @@ def load_skos(skos_file):
 
     data = None
     # try a few encodings
-    encodings = ["utf-8", "iso-8859-1", "iso-8859-15"]
+    encodings = ["cp037", "utf-8", "ascii", "iso-8859-1", "iso-8859-15", "utf-8-sig", 'utf-16']
     while (data==None and len(encodings) > 0):
         try:
             with codecs.open (skos_file, 'r', encodings.pop() ) as f:
