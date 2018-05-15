@@ -1,6 +1,3 @@
-# Dictionaries
-Collection of NASA thesauri, dictionaries, taxonomies and related documents
-
 This repository contains a collection of NASA thesauri, dictionaries, taxonomies, and related documents, as well as a Python script to load concepts from a SKOS file.
 
 **What You'll Find Here**
