@@ -1,6 +1,4 @@
-### STI
-
-**NASA Thesaurus**
+### About the NASA Thesaurus
 
 The [NASA Scientific and Technical Information (STI) Program](https://www.sti.nasa.gov/) acquires, processes, archives, announces, and disseminates NASA scientific and technical information and acquires worldwide scientific and technical information of critical importance to NASA and the Nation.
 
@@ -8,14 +6,12 @@ The NASA Thesaurus contains the authorized NASA subject terms used to index and 
 
 **Files**
 
-* *NASA_Thesaurus_Alpha_SKOS.xml.bz2*: compressed version of the full NASA thesaurus SKOS\* data file(?)
-* *NASA_Thesaurus_Alpha_SKOS.xml.orig.gz*: compressed version of the full NASA thesaurus SKOS\* data file(?)
+* *NASA_Thesaurus_Alpha_SKOS.xml.bz2*: compressed version of the full NASA thesaurus SKOS data file(?)
+* *NASA_Thesaurus_Alpha_SKOS.xml.orig.gz*: compressed version of the full NASA thesaurus SKOS data file(?)
 * *NASA_Thesaurus_Alpha_SKOS.xml.readme*
-* *NASA_Thesaurus_Alpha_STI_SKOS_loadable.skos*: "semi-cleaned"(?) SKOS\* file
+* *NASA_Thesaurus_Alpha_STI_SKOS_loadable.skos*: "semi-cleaned"(?) SKOS file
 * *convert_skos_to_canon.py*: Python script to convert STI SKOS "non-canon"(?) structure back to "canon."(?) (For example, to put term/concept definitions back under "skos:definition"
 nodes rather than in zthes:termNote relationships.)
-
-\*SKOS = Simple Knowledge Organizing System
 
 **Coverage**
 

@@ -1,6 +1,4 @@
-### PDS
-
-**Planetary Data System Data Dictionary**
+### About the PDS
 
 The [Planetary Data System (PDS)](https://pds.nasa.gov/) is a long-term archive of digital data products returned from NASA's planetary missions, and from other kinds of flight and ground-based data acquisitions, including laboratory experiments. The archive is actively managed by planetary scientists.
 

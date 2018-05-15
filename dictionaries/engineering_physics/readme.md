@@ -1,4 +1,4 @@
-### engineering_physics
+### About the Concepts of Mathematics
 
 **Concepts of Mathematics for Students of Physics and Engineering: A Dictionary**
 

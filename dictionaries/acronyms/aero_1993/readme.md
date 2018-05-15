@@ -1,6 +1,4 @@
-#### aero_1993
-
-**Acronym Dictionary**
+#### About the Acronym Dictionary
 
 *Acronym Dictionary* was originally compiled as a tool for abstracters who needed to know the expansion of acronyms they encountered in the texts they were analyzing. Abstracters at the Center for AeroSpace Information (CASI) recorded acronyms and their expansions as they were encountered in documents. This is an ad-hoc reference, rather than a systematic collection of all acronyms.
 

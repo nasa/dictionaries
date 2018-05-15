@@ -1,6 +1,4 @@
-### NASA 2.0
-
-**NASA Taxonomy 2.0**
+### About NASA Taxonomy 2.0
 
 The bulk of the work on the taxonomy was completed between 2002 and 2004. It seems to have been last updated in 2007, but is possibly linked to work that is still active.
 

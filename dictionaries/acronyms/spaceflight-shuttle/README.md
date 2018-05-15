@@ -1,6 +1,4 @@
-#### spaceflight-shuttle
-
-**Human Space Flight acronym finder**
+#### About the Human Space Flight acronym finder
 
 NASA's Human Space Flight website hosts an acronym finder at [https://spaceflight.nasa.gov/cgi-bin/acronyms.cgi](https://spaceflight.nasa.gov/cgi-bin/acronyms.cgi).
 
